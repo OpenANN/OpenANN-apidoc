@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['main',['main',['../dpb_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627',1,'main(int argc, char **argv):&#160;dpb.cpp'],['../examples_2twospirals_2twospirals_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627',1,'main(int argc, char **argv):&#160;twospirals.cpp'],['../xor_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;xor.cpp'],['../cifar10_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627',1,'main(int argc, char **argv):&#160;cifar10.cpp'],['../mnist_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627',1,'main(int argc, char **argv):&#160;mnist.cpp'],['../rbm_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627',1,'main(int argc, char **argv):&#160;rbm.cpp'],['../viewdata_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627',1,'main(int argc, char **argv):&#160;viewdata.cpp'],['../visualize_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627',1,'main(int argc, char **argv):&#160;visualize.cpp'],['../tcpClient_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;tcpClient.cpp'],['../p300_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627',1,'main(int argc, char **argv):&#160;p300.cpp'],['../polebalancing_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627',1,'main(int argc, char **argv):&#160;polebalancing.cpp'],['../benchmarks_2twospirals_2twospirals_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627',1,'main(int argc, char **argv):&#160;twospirals.cpp']]],
+  ['mainpage_2edox',['mainpage.dox',['../mainpage_8dox.html',1,'']]],
+  ['makemlnn',['makeMLNN',['../namespaceOpenANN.html#ad62475f272f705ba5a6072cc85b55b5e',1,'OpenANN']]],
+  ['maximalfunctionevaluations',['maximalFunctionEvaluations',['../classOpenANN_1_1StoppingCriteria.html#a0defe6f477d96e5d516682288ad2b9fd',1,'OpenANN::StoppingCriteria']]],
+  ['maximaliterations',['maximalIterations',['../classOpenANN_1_1StoppingCriteria.html#a9992544e16dbef7a61b3796195952470',1,'OpenANN::StoppingCriteria']]],
+  ['maximalrestarts',['maximalRestarts',['../classOpenANN_1_1StoppingCriteria.html#a04c6aa605bfe8c36fff92fb3c72803c4',1,'OpenANN::StoppingCriteria']]],
+  ['maxpooling',['MaxPooling',['../classOpenANN_1_1MaxPooling.html#ad3017f64fa70f35076bc4d204a88b32c',1,'OpenANN::MaxPooling']]],
+  ['maxpooling',['MaxPooling',['../classOpenANN_1_1MaxPooling.html',1,'OpenANN']]],
+  ['maxpooling_2eh',['MaxPooling.h',['../MaxPooling_8h.html',1,'']]],
+  ['maxpooling_5flayer',['maxpooling_layer',['../classnet_1_1Net.html#a9202076cb6d04bef493619d354b29943',1,'net::Net']]],
+  ['maxpoolinglayer',['maxPoolingLayer',['../classOpenANN_1_1Net.html#a6b9f35d8366e989caba484a632ad4878',1,'OpenANN::Net']]],
+  ['maxsquaredweightnorm',['maxSquaredWeightNorm',['../classOpenANN_1_1Regularization.html#adc199bd56d6ac51e7ee105c877edc48b',1,'OpenANN::Regularization']]],
+  ['maxt',['maxT',['../classBCIDataSet.html#ab98130e80e1109b5db0d4390d1b206dc',1,'BCIDataSet']]],
+  ['mbsgd',['MBSGD',['../classoptimization_1_1MBSGD.html',1,'optimization']]],
+  ['mbsgd',['MBSGD',['../classOpenANN_1_1MBSGD.html#af1f08ce49b11d328dce5a8be043f27f2',1,'OpenANN::MBSGD']]],
+  ['mbsgd',['MBSGD',['../classOpenANN_1_1MBSGD.html',1,'OpenANN']]],
+  ['mbsgd_2eh',['MBSGD.h',['../MBSGD_8h.html',1,'']]],
+  ['merge',['merge',['../classOpenANN_1_1DataSetView.html#a078a612dde8d984daf1c4182113de56f',1,'OpenANN::DataSetView::merge()'],['../namespaceOpenANN.html#aa6e817e8027439083f9638a6012abaea',1,'OpenANN::merge()']]],
+  ['minimalsearchspacestep',['minimalSearchSpaceStep',['../classOpenANN_1_1StoppingCriteria.html#a01314acfb86728440d38185e9c1576ce',1,'OpenANN::StoppingCriteria']]],
+  ['minimalvalue',['minimalValue',['../classOpenANN_1_1StoppingCriteria.html#a52bb3e651d88a25aef8d538a73d866ac',1,'OpenANN::StoppingCriteria']]],
+  ['minimalvaluedifferences',['minimalValueDifferences',['../classOpenANN_1_1StoppingCriteria.html#adb37c8f3a5ff2657f7c876c36d75ff9b',1,'OpenANN::StoppingCriteria']]],
+  ['mnist_2ecpp',['mnist.cpp',['../mnist_8cpp.html',1,'']]],
+  ['mse',['MSE',['../classnet_1_1Error.html#af5207e697feab13c253909f79b51127b',1,'net::Error.MSE()'],['../namespaceOpenANN.html#a051970efc9e88e608fbe5cf52db8e87da725f9bfc7b6ef4358c13159ed28bbf3b',1,'OpenANN::MSE()'],['../namespaceOpenANN.html#a75380bea61f0844130aa03e0ab895367',1,'OpenANN::mse(Learner &amp;learner, DataSet &amp;dataSet)'],['../namespaceevaluation.html#acd8865b2bc1e6ccd2564808d408b5ebf',1,'evaluation.mse()']]],
+  ['multiclassevaluator',['MulticlassEvaluator',['../classOpenANN_1_1MulticlassEvaluator.html',1,'OpenANN']]],
+  ['multiclassevaluator',['MulticlassEvaluator',['../classOpenANN_1_1MulticlassEvaluator.html#af429b28f513dcedfa2512c639d2f1aee',1,'OpenANN::MulticlassEvaluator']]]
+];

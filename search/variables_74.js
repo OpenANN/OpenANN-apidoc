@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['tanh',['TANH',['../classnet_1_1Activation.html#a29bbb2e729072e30cf746a74bd8ad0df',1,'net::Activation']]],
+  ['tanh_5fscaled',['TANH_SCALED',['../classnet_1_1Activation.html#a468969623a014f55a5c417bcf570fa79',1,'net::Activation']]],
+  ['target',['target',['../classOpenANN_1_1Logger.html#a105ba158cb4b7bfb5079b353a6e90bf3',1,'OpenANN::Logger']]],
+  ['targetchar',['targetChar',['../classBCIDataSet.html#ad0e6d84890d4cf842dab6b3b304b53d8',1,'BCIDataSet']]],
+  ['tempinstance',['tempInstance',['../classBCIDataSet.html#a52dc5b45714c782c773e2b51ac3923ee',1,'BCIDataSet']]],
+  ['temporaryinput',['temporaryInput',['../classOpenANN_1_1DirectStorageDataSet.html#a3c467515bcb0f146e1d044e8d34c7958',1,'OpenANN::DirectStorageDataSet']]],
+  ['temporaryoutput',['temporaryOutput',['../classOpenANN_1_1DirectStorageDataSet.html#a4f7629c2bad11e2345ad1810efa6e99d',1,'OpenANN::DirectStorageDataSet']]],
+  ['testinput',['testInput',['../classCIFARLoader.html#ad050304758b15ce85f2228d4c403d50e',1,'CIFARLoader::testInput()'],['../classIDXLoader.html#ad12cfd3bf9bcdf82639c0f346a79be6c',1,'IDXLoader::testInput()']]],
+  ['testn',['testN',['../classCIFARLoader.html#a8d8393148254b05beeebd08066485620',1,'CIFARLoader::testN()'],['../classIDXLoader.html#ae570613cb78f6ee1744c50b2b854e752',1,'IDXLoader::testN()']]],
+  ['testoutput',['testOutput',['../classCIFARLoader.html#a3cd47e9264a037f77bd3b084b4a9318b',1,'CIFARLoader::testOutput()'],['../classIDXLoader.html#acdc6d0ec09a67cbed4f762ab9f9ba14d',1,'IDXLoader::testOutput()']]],
+  ['thisptr',['thisptr',['../classnet_1_1Net.html#a4b26a7e98de83812210e67462e0e9833',1,'net::Net::thisptr()'],['../namespaceoptimization.html#a0800cb9d5bdd8a2f95b3bde0ce9f9f92',1,'optimization::thisptr()']]],
+  ['traininginput',['trainingInput',['../classCIFARLoader.html#ae6373e84d9d84e1f7c33a47be74c7a5a',1,'CIFARLoader::trainingInput()'],['../classIDXLoader.html#a1206428d6bec6d645656b57c362aa6c6',1,'IDXLoader::trainingInput()']]],
+  ['trainingn',['trainingN',['../classCIFARLoader.html#a61a18e06912d9bb8cd3ecc00b4643eb6',1,'CIFARLoader::trainingN()'],['../classIDXLoader.html#aa7366a6887fdf262d42d72a1e37e5b90',1,'IDXLoader::trainingN()']]],
+  ['trainingoutput',['trainingOutput',['../classCIFARLoader.html#a87d1663d3922d6e2bcfe38fa6f152d1f',1,'CIFARLoader::trainingOutput()'],['../classIDXLoader.html#a1c273431879ddd37f82e4c25a54451c5',1,'IDXLoader::trainingOutput()']]],
+  ['trainset',['trainSet',['../classOpenANN_1_1Learner.html#a8e1c6a1e09288765bcf3f7ebce529a56',1,'OpenANN::Learner']]],
+  ['transformation',['transformation',['../classOpenANN_1_1CompressionMatrixFactory.html#a8ed792b3a9260c144fa8b7ff1939ce1d',1,'OpenANN::CompressionMatrixFactory']]],
+  ['triangle',['triangle',['../classlayer_1_1SigmaPiLayer.html#aa275a2892bb49c44a375a7311dc250d6',1,'layer::SigmaPiLayer']]]
+];

@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node7" href="$classDoublePoleBalancing.html" title="In this environment the agent has to control a cart such that the two poles mounted at the top of the..." alt="" coords="5,533,192,792"/>
+<area shape="rect" id="node9" href="$classSinglePoleBalancing.html" title="In this environment the agent has to control a cart such that the pole mounted at the top of the cart..." alt="" coords="216,533,403,792"/>
+<area shape="rect" id="node2" href="$classOpenANN_1_1StateSpace.html" title="Represents the state space &#160;in a reinforcement learning problem." alt="" coords="12,5,191,195"/>
+<area shape="rect" id="node4" href="$classOpenANN_1_1ActionSpace.html" title="Represents the action space &#160;in a reinforcement learning problem." alt="" coords="215,5,401,195"/>
+</map>

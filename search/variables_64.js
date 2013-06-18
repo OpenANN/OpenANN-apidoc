@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['d',['D',['../classOpenANN_1_1DirectStorageDataSet.html#aa8873c90f5367c1a516dd71c157ec727',1,'OpenANN::DirectStorageDataSet::D()'],['../classCIFARLoader.html#a5f0b0b6167bc659ddc4534b39f204834',1,'CIFARLoader::D()'],['../classIDXLoader.html#a164cd20816bda6c2906534d5425a2821',1,'IDXLoader::D()'],['../classBCIDataSet_1_1BCIDataCache.html#aeb6a645bb9b67333e306cc51aac956ad',1,'BCIDataSet::BCIDataCache::D()'],['../classBCIDataSet.html#a025c56730d84dbe85b86f81cb5274e30',1,'BCIDataSet::D()']]],
+  ['datatype',['dataType',['../classBCIDataSet.html#ae5a010c75dff2682903f30930b0915b6',1,'BCIDataSet']]],
+  ['deactivate',['deactivate',['../classOpenANN_1_1Logger.html#adee5fc9ea1e80bfa1ecf9c9a0484512d',1,'OpenANN::Logger']]],
+  ['debug',['DEBUG',['../namespaceutil.html#accf1dbd453d6a542608a375d95829fd1',1,'util']]],
+  ['debuglogger',['debugLogger',['../classIDXLoader.html#a9719eebc6d1ae15591808cf464b1b582',1,'IDXLoader::debugLogger()'],['../classBCIDataSet.html#aa2311a5d8f5f1e3bd6b762dde5cac30d',1,'BCIDataSet::debugLogger()']]],
+  ['decimated',['decimated',['../classBCIDataSet.html#a2d1e17f1d8b9b9a491f495ce09c132e5',1,'BCIDataSet']]],
+  ['defaultvalue',['defaultValue',['../classOpenANN_1_1StoppingCriteria.html#a7e29986d7ca377ef6ba7bd2b4b91a043',1,'OpenANN::StoppingCriteria']]],
+  ['deletetrainset',['deleteTrainSet',['../classOpenANN_1_1Learner.html#a1f3cd7320ba1d7483cd1090865df7ea2',1,'OpenANN::Learner']]],
+  ['deletevalidset',['deleteValidSet',['../classOpenANN_1_1Learner.html#ab2fa01c30c2cd8308f34586c9e9e39d0',1,'OpenANN::Learner']]],
+  ['deltas',['deltas',['../classOpenANN_1_1SigmaPi.html#a2580c7123e9deca9c26d962bd6a55f1f',1,'OpenANN::SigmaPi']]],
+  ['description',['DESCRIPTION',['../classOpenANN_1_1OpenANNLibraryInfo.html#a72bb04c16025c66e88ee07eee188d1a8',1,'OpenANN::OpenANNLibraryInfo']]],
+  ['dimensions',['dimensions',['../classOpenANN_1_1OutputInfo.html#a754883365abe65167f2b6e6de63640c0',1,'OpenANN::OutputInfo']]],
+  ['directory',['directory',['../classIDXLoader.html#acefca652c25eb0e3c8f8ad57757a8386',1,'IDXLoader::directory()'],['../classBCIDataSet.html#a1940ff0f8c90bbf0ff6fdd67fdcbc8dc',1,'BCIDataSet::directory()']]],
+  ['distance',['distance',['../classlayer_1_1SigmaPiLayer.html#a45021ea368fe972cd4cd35dd95c4cd71',1,'layer::SigmaPiLayer']]],
+  ['distortionh',['distortionH',['../classDistorter.html#aa9031dddebf681a27ad66e25df587f59',1,'Distorter']]],
+  ['distortionv',['distortionV',['../classDistorter.html#a8678befe066d0562e55ca6a66906a83a',1,'Distorter']]],
+  ['downsamplingfactor',['downSamplingFactor',['../classBCIDataSet.html#aafe15187dfefb1636f7f8408da2e0356',1,'BCIDataSet']]]
+];

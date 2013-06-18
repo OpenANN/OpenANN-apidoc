@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node5" href="$classOpenANN_1_1IntrinsicPlasticity.html" title="Learns the parameters of a logistic sigmoid activation function." alt="" coords="5,1471,195,1729"/>
+<area shape="rect" id="node7" href="$classOpenANN_1_1Net.html" title="Feedforward multilayer neural network." alt="" coords="219,1072,456,2128"/>
+<area shape="rect" id="node9" href="$classOpenANN_1_1RBM.html" title="Restricted Boltzmann Machine." alt="" coords="480,1471,640,1729"/>
+<area shape="rect" id="node2" href="$classOpenANN_1_1Optimizable.html" title="Represents an optimizable object." alt="" coords="257,6,417,663"/>
+</map>

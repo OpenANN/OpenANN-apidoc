@@ -1,0 +1,21 @@
+var searchData=
+[
+  ['randomagent',['RandomAgent',['../classOpenANN_1_1RandomAgent.html#a45f1be343eaa196d4721a91a91c9b566',1,'OpenANN::RandomAgent']]],
+  ['randomnumbergenerator',['RandomNumberGenerator',['../classOpenANN_1_1RandomNumberGenerator.html#a7beb2eed43a64239857a17bc07e66e57',1,'OpenANN::RandomNumberGenerator']]],
+  ['rbm',['RBM',['../classOpenANN_1_1RBM.html#a881dfe5e2503a159991f1d9af1d5fb0b',1,'OpenANN::RBM']]],
+  ['reconstructprob',['reconstructProb',['../classOpenANN_1_1RBM.html#adc593229340d973df6b22ab9e46d2853',1,'OpenANN::RBM']]],
+  ['rectifier',['rectifier',['../namespaceOpenANN.html#a628aa9c008039a51aefa43831840d911',1,'OpenANN']]],
+  ['rectifierderivative',['rectifierDerivative',['../namespaceOpenANN.html#af9ce352ce451b7caa9c64e10921db865',1,'OpenANN']]],
+  ['regularization',['Regularization',['../classOpenANN_1_1Regularization.html#a996a76f1d79d79411f33b49b20655859',1,'OpenANN::Regularization']]],
+  ['removetrainingset',['removeTrainingSet',['../classOpenANN_1_1Learner.html#a66f9b8b53aa5f7ccdb3cc5d1526903b2',1,'OpenANN::Learner']]],
+  ['removevalidationset',['removeValidationSet',['../classOpenANN_1_1Learner.html#ae851eb33ba3d1a226944e8adebfe75c6',1,'OpenANN::Learner']]],
+  ['reset',['reset',['../classOpenANN_1_1Compressor.html#a1c605a2148b7f1a0a687ae8067bff33f',1,'OpenANN::Compressor::reset()'],['../classOpenANN_1_1AlphaBetaFilter.html#a7987650bfb403a1d54e926c270bccd36',1,'OpenANN::AlphaBetaFilter::reset()'],['../classBCIDataSet.html#ae24418421c12a4e7fc64da0d6a23e968',1,'BCIDataSet::reset()']]],
+  ['resizegl',['resizeGL',['../classDoublePoleBalancingVisualization.html#a271df27717e88638b5333961bb390ae7',1,'DoublePoleBalancingVisualization::resizeGL()'],['../classTwoSpiralsVisualization.html#a95209e1903920255c7095c269c35d878',1,'TwoSpiralsVisualization::resizeGL()']]],
+  ['restart',['restart',['../classOpenANN_1_1IPOPCMAES.html#a7308c62ecba74164992318af9ab4cc24',1,'OpenANN::IPOPCMAES::restart()'],['../classOpenANN_1_1Environment.html#a80125ca14a22e9d803344cfec6d42b94',1,'OpenANN::Environment::restart()'],['../classDoubleExponentialSmoothing.html#a7bec80e64166c2a553a8f283876962f5',1,'DoubleExponentialSmoothing::restart()'],['../classDoublePoleBalancing.html#a38029df5ba2a188e95f62376e90ba6a1',1,'DoublePoleBalancing::restart()'],['../classSinglePoleBalancing.html#a898074ad53239fd76698df02d5d7d720',1,'SinglePoleBalancing::restart()']]],
+  ['restrictedboltzmannmachinelayer',['restrictedBoltzmannMachineLayer',['../classOpenANN_1_1Net.html#a5a88410ad086ad923e7b384ec2683920',1,'OpenANN::Net']]],
+  ['result',['result',['../classOpenANN_1_1CG.html#a55a47024ed2c2e6a97530e91a6dd2d31',1,'OpenANN::CG::result()'],['../classOpenANN_1_1IPOPCMAES.html#a2f0185b5eff7e6f1746fd1e7d721b2a7',1,'OpenANN::IPOPCMAES::result()'],['../classOpenANN_1_1LMA.html#a198df9a1f659db6bde803ee68e15a1de',1,'OpenANN::LMA::result()'],['../classOpenANN_1_1MBSGD.html#af4a9fc08de6e6d1a7d73782fc1bf10b4',1,'OpenANN::MBSGD::result()'],['../classOpenANN_1_1Optimizer.html#aa1fe7b1a0ee5075465dd2fcab268d187',1,'OpenANN::Optimizer::result()']]],
+  ['reward',['reward',['../classOpenANN_1_1Environment.html#a86d5f4750e0a278a34f4dd9daa9038f0',1,'OpenANN::Environment::reward()'],['../classDoublePoleBalancing.html#ab5f78f302d1edc9f0d1705d4a1d617d9',1,'DoublePoleBalancing::reward()'],['../classSinglePoleBalancing.html#a47bcbb2fb6936b867657a956d3b266d7',1,'SinglePoleBalancing::reward()']]],
+  ['rmse',['rmse',['../namespaceOpenANN.html#a09297b7d06f34d03b4f32278d89f8b9d',1,'OpenANN::rmse()'],['../namespaceevaluation.html#a8618b5fe64415e2067106f429a8fec33',1,'evaluation.rmse()']]],
+  ['run',['run',['../classDoublePoleBalancingVisualization.html#a98655bc68db219be346eceab2ed8664d',1,'DoublePoleBalancingVisualization']]],
+  ['runtest',['runTest',['../p300_8cpp.html#a47488025edeafb12fac43583a6b4ee3e',1,'p300.cpp']]]
+];

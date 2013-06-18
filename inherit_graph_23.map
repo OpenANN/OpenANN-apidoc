@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node1" href="$classOpenANN_1_1Optimizer.html" title="The common interface of all optimization algorithms." alt="" coords="5,85,152,115"/>
+<area shape="rect" id="node3" href="$classOpenANN_1_1CG.html" title="Conjugate Gradient." alt="" coords="231,5,340,35"/>
+<area shape="rect" id="node5" href="$classOpenANN_1_1IPOPCMAES.html" title="Evolution Strategies with Covariance Matrix Adaption and a restart strategy that increases the popula..." alt="" coords="200,59,371,88"/>
+<area shape="rect" id="node7" href="$classOpenANN_1_1LMA.html" title="Levenberg&#45;Marquardt Algorithm." alt="" coords="227,112,344,141"/>
+<area shape="rect" id="node9" href="$classOpenANN_1_1MBSGD.html" title="Mini&#45;batch stochastic gradient descent." alt="" coords="216,165,355,195"/>
+</map>

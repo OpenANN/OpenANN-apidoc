@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node1" href="$classOpenANN_1_1DataSet.html" title="Data set interface." alt="" coords="5,85,144,115"/>
+<area shape="rect" id="node3" href="$classBCIDataSet.html" title="BCIDataSet" alt="" coords="255,5,348,35"/>
+<area shape="rect" id="node5" href="$classOpenANN_1_1DataSetView.html" title="An index&#45;based dataset wrapper for representing efficient dataset views on any DataSet instance..." alt="" coords="219,59,384,88"/>
+<area shape="rect" id="node7" href="$classOpenANN_1_1DirectStorageDataSet.html" title="Stores the inputs and outputs of the data set directly in two matrices." alt="" coords="192,112,411,141"/>
+<area shape="rect" id="node9" href="$classTwoSpiralsDataSet.html" title="TwoSpiralsDataSet" alt="" coords="235,165,368,195"/>
+</map>
