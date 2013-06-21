@@ -84,12 +84,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <th>Function</th><th>Usage</th><th>Description </th></tr>
 <tr>
 <td><a class="el" href="namespaceOpenANN.html#ad62475f272f705ba5a6072cc85b55b5e" title="Create a multilayer neural network.">OpenANN::makeMLNN</a> </td><td><div class="fragment"><pre class="fragment"><a class="code" href="classOpenANN_1_1Net.html" title="Feedforward multilayer neural network.">OpenANN::Net</a> <a class="code" href="agent_8cpp.html#a474ff98ad9b3a9eb55cfd3c3d4ec5e38">net</a>;
-<a class="code" href="namespaceOpenANN.html#ad62475f272f705ba5a6072cc85b55b5e" title="Create a multilayer neural network.">OpenANN::makeMLNN</a>(net, <a class="code" href="namespaceOpenANN.html#a90e479eb54bb177043ce063427022968ab78593ece2753677cebf6e7626324df0" title="Logistic sigmoid activation function.">OpenANN::LOGISTIC</a>, <a class="code" href="namespaceOpenANN.html#a90e479eb54bb177043ce063427022968ab78593ece2753677cebf6e7626324df0" title="Logistic sigmoid activation function.">OpenANN::LOGISTIC</a>, D, F, 2, 3, 3);
+<a class="code" href="namespaceOpenANN.html#ad62475f272f705ba5a6072cc85b55b5e" title="Create a multilayer neural network.">OpenANN::makeMLNN</a>(net, <a class="code" href="namespaceOpenANN.html#a90e479eb54bb177043ce063427022968ab78593ece2753677cebf6e7626324df0" title="Logistic sigmoid activation function.">OpenANN::LOGISTIC</a>, <a class="code" href="namespaceOpenANN.html#a90e479eb54bb177043ce063427022968ab78593ece2753677cebf6e7626324df0" title="Logistic sigmoid activation function.">OpenANN::LOGISTIC</a>, <a class="code" href="namespacexor.html#a2494cad7998a3b25f12934868b3eea85">D</a>, <a class="code" href="namespacexor.html#aa0027eecc941dec41f4a095e682f7389">F</a>, 2, 3, 3);
 </pre></div>  </td><td>Create a multilayer neural network with D inputs, F outputs and two hidden layers with 3 nodes each. Note that you cannot set the standard deviation of the initial random weights or the bias of the MLNN.   </td></tr>
 <tr>
 <td><a class="el" href="namespaceOpenANN.html#a42ed5ec7a923a27aa6449ac07aa359f3" title="Train a feedforward neural network supervised.">OpenANN::train</a> </td><td><div class="fragment"><pre class="fragment"><a class="code" href="classOpenANN_1_1Net.html" title="Feedforward multilayer neural network.">OpenANN::Net</a> <a class="code" href="agent_8cpp.html#a474ff98ad9b3a9eb55cfd3c3d4ec5e38">net</a>;
 <span class="comment">// add layers</span>
-<a class="code" href="classOpenANN_1_1StoppingCriteria.html" title="Stopping criteria for optimization algorithms.">OpenANN::StoppingCriteria</a> stop;
+<a class="code" href="classOpenANN_1_1StoppingCriteria.html" title="Stopping criteria for optimization algorithms.">OpenANN::StoppingCriteria</a> <a class="code" href="namespacesine.html#aab61aa2dc4b07809c6bf8cd61f4a85fc">stop</a>;
 stop.<a class="code" href="classOpenANN_1_1StoppingCriteria.html#a9992544e16dbef7a61b3796195952470" title="Maximal number of optimization algorithm iterations.">maximalIterations</a> = 100;
 <a class="code" href="namespaceOpenANN.html#a42ed5ec7a923a27aa6449ac07aa359f3" title="Train a feedforward neural network supervised.">OpenANN::train</a>(net, <span class="stringliteral">&quot;LMA&quot;</span>, <a class="code" href="namespaceOpenANN.html#a051970efc9e88e608fbe5cf52db8e87da1db09e64eac69d268920ca4c5052a5bc" title="Sum of squared errors (regression, two classes)">OpenANN::SSE</a>, stop);
 </pre></div>  </td><td>Trains a multilayer feedforward neural network. Note that you cannot pass any arguments to the optimization algorithm, that is you have to rely on the default settings for e.g. <a class="el" href="classOpenANN_1_1MBSGD.html" title="Mini-batch stochastic gradient descent.">MBSGD</a> which is usually not a good idea.   </td></tr>
@@ -112,7 +112,7 @@ stop.<a class="code" href="classOpenANN_1_1StoppingCriteria.html#a9992544e16dbef
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jun 18 2013 10:11:40 for OpenANN by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Jun 21 2013 08:32:07 for OpenANN by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.6.1
 </small></address>

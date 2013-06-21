@@ -92,6 +92,11 @@ Global Logger</h2>
 </ul>
 <p>Note that once you disabled a log level during compilation you cannot turn it on again. However, you can turn log levels off during runtime with</p>
 <div class="fragment"><pre class="fragment"><a class="code" href="classOpenANN_1_1Log.html#ad064b8b69722da409e37df81e95e59fc">OpenANN::Log::getLevel</a>() = <a class="code" href="namespaceutil.html#a5f62638aaab964942884b727331e823d">OpenANN::Log::INFO</a>;
+</pre></div><p>or one of these functions</p>
+<div class="fragment"><pre class="fragment"><a class="code" href="classOpenANN_1_1Log.html#aacfec7481f5ff858239e074f544edc08">OpenANN::Log::setDisabled</a>();
+<a class="code" href="classOpenANN_1_1Log.html#a4be9255991a917ed9e758918c712992f">OpenANN::Log::setError</a>();
+<a class="code" href="classOpenANN_1_1Log.html#a440a449424356a80b78eb2c2ab87769d">OpenANN::Log::setInfo</a>();
+<a class="code" href="classOpenANN_1_1Log.html#a8bb7d316dd655fc3387ea867202acfb9">OpenANN::Log::setDebug</a>();
 </pre></div><p>You can also change the logging target to any std::ostream at runtime with</p>
 <div class="fragment"><pre class="fragment"><a class="code" href="classOpenANN_1_1Log.html#a7965e588811ee605a66589b88bf61f24">OpenANN::Log::getStream</a>() = std::cerr;
 </pre></div><p>To log something you just have to use the stream operator &lt;&lt;:</p>
@@ -141,7 +146,7 @@ Formatting</h2>
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jun 18 2013 10:11:40 for OpenANN by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Jun 21 2013 08:32:07 for OpenANN by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.6.1
 </small></address>

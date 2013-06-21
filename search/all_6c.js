@@ -2,6 +2,9 @@ var searchData=
 [
   ['l1penalty',['l1Penalty',['../classOpenANN_1_1Regularization.html#aa3d5f4513efa1e2965912a1fb5d296eb',1,'OpenANN::Regularization']]],
   ['l2penalty',['l2Penalty',['../classOpenANN_1_1Regularization.html#a757586660b8b9a2bd123816c0a96b6ce',1,'OpenANN::Regularization']]],
+  ['label_5ffile_5ftemplate',['label_file_template',['../namespacebenchmark.html#ad63c6b67190b1678a77b87f51024d4e8',1,'benchmark']]],
+  ['label_5ffiles',['LABEL_FILES',['../namespacebenchmark.html#a916ea9489ca74fad9b5853a4048155fe',1,'benchmark']]],
+  ['label_5furls',['LABEL_URLS',['../namespacebenchmark.html#a05880a9c7b6b6814c61ee9a3b2c3d1e7',1,'benchmark']]],
   ['lastreturn',['lastReturn',['../classOpenANN_1_1RandomAgent.html#ac19e2ad564d9d6ce2fa501a45b198eed',1,'OpenANN::RandomAgent']]],
   ['layer',['Layer',['../classOpenANN_1_1Layer.html',1,'OpenANN']]],
   ['layer',['layer',['../namespacelayer.html',1,'layer'],['../classlayer_1_1SigmaPiLayer.html#a4a38e1d2d6f4237e60cf081306657919',1,'layer::SigmaPiLayer::layer()']]],
@@ -18,7 +21,7 @@ var searchData=
   ['linearderivative',['linearDerivative',['../namespaceOpenANN.html#a9b72c2456c631e4f37ffd40a6f57771a',1,'OpenANN']]],
   ['lma',['LMA',['../classOpenANN_1_1LMA.html',1,'OpenANN']]],
   ['lma',['LMA',['../classoptimization_1_1LMA.html',1,'optimization']]],
-  ['lma',['LMA',['../classOpenANN_1_1LMA.html#a8502e638c624ee86fa0df25521a55ab1',1,'OpenANN::LMA']]],
+  ['lma',['LMA',['../classOpenANN_1_1LMA.html#a8502e638c624ee86fa0df25521a55ab1',1,'OpenANN::LMA::LMA()'],['../namespacesine.html#accccbe5759616603822433b14b2dd9da',1,'sine.lma()'],['../namespacexor.html#a85f004bd3af6b568dfd07ee36d6fda15',1,'xor.lma()']]],
   ['lma_2eh',['LMA.h',['../LMA_8h.html',1,'']]],
   ['load',['load',['../classIDXLoader.html#a3fff49de465f8d6b86cce7ffcff432db',1,'IDXLoader::load()'],['../classBCIDataSet.html#aa4ef68c08953cf1b0ae782ba1380677b',1,'BCIDataSet::load()'],['../namespaceOpenANN_1_1FANN.html#a383fa670f2730ddf176a79b3746db6e8',1,'OpenANN::FANN::load(Eigen::MatrixXd &amp;in, Eigen::MatrixXd &amp;out, const char *filename)'],['../namespaceOpenANN_1_1FANN.html#a5fc5303e530003acdeecca722b153874',1,'OpenANN::FANN::load(Eigen::MatrixXd &amp;in, Eigen::MatrixXd &amp;out, std::istream &amp;stream)'],['../namespaceOpenANN_1_1LibSVM.html#a37172caac44200275c7ac6dcaba34deb',1,'OpenANN::LibSVM::load(Eigen::MatrixXd &amp;in, Eigen::MatrixXd &amp;out, const char *filename, int min_inputs=0)'],['../namespaceOpenANN_1_1LibSVM.html#ad4d3554d3370ed727e178cb7ffd407bd',1,'OpenANN::LibSVM::load(Eigen::MatrixXd &amp;in, Eigen::MatrixXd &amp;out, std::istream &amp;stream, int min_inputs=0)']]],
   ['load_5ffrom_5flibsvm',['load_from_libsvm',['../namespacedataset.html#aa9a183d443dac086d7cbf7702884670e',1,'dataset']]],
@@ -39,7 +42,7 @@ var searchData=
   ['logger',['Logger',['../classOpenANN_1_1Logger.html#a18cfebfdb40a77eadba80e80806fcf4c',1,'OpenANN::Logger::Logger()'],['../agent_8cpp.html#ad6349ecd3290bc2b1caa3b1c6c0c40fc',1,'logger():&#160;agent.cpp']]],
   ['logger_2eh',['Logger.h',['../Logger_8h.html',1,'']]],
   ['logging_2edox',['logging.dox',['../logging_8dox.html',1,'']]],
-  ['logistic',['LOGISTIC',['../classnet_1_1Activation.html#afba1d96d92ea907bfd879bcf1ddb5205',1,'net::Activation::LOGISTIC()'],['../namespaceOpenANN.html#a90e479eb54bb177043ce063427022968ab78593ece2753677cebf6e7626324df0',1,'OpenANN::LOGISTIC()'],['../namespaceOpenANN.html#aedc9e2e4c880c0328f37833c827965fe',1,'OpenANN::logistic(const Eigen::MatrixXd &amp;a, Eigen::MatrixXd &amp;z)']]],
+  ['logistic',['LOGISTIC',['../classnet_1_1Activation.html#afba1d96d92ea907bfd879bcf1ddb5205',1,'net::Activation::LOGISTIC()'],['../namespaceOpenANN.html#aedc9e2e4c880c0328f37833c827965fe',1,'OpenANN::logistic(const Eigen::MatrixXd &amp;a, Eigen::MatrixXd &amp;z)'],['../namespaceOpenANN.html#a90e479eb54bb177043ce063427022968ab78593ece2753677cebf6e7626324df0',1,'OpenANN::LOGISTIC()']]],
   ['logisticderivative',['logisticDerivative',['../namespaceOpenANN.html#ae49b91b9a709243b18994f491f914279',1,'OpenANN']]],
   ['loglevel',['LogLevel',['../classOpenANN_1_1Log.html#a3ca17978b9cee3a67f86c7fbdc5758dd',1,'OpenANN::Log']]],
   ['logresults',['logResults',['../benchmarks_2twospirals_2twospirals_8cpp.html#a6e14ac48e20cb176b78ad640903ae06e',1,'twospirals.cpp']]]

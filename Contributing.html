@@ -130,9 +130,19 @@ Coding Style</h2>
 astyle --options=.astylerc --recursive "OpenANN/*.h" "src/*.cpp" "examples/*.h" "examples/*.cpp" "benchmarks/*.h" "benchmarks/*.cpp" "test/*.h" "test/*.cpp"
 </pre></div><h2><a class="anchor" id="FAQ"></a>
 FAQ</h2>
-<ul>
-<li>How can I minimize the time that is required to switch between different build types (Debug and Release)?</li>
-</ul>
+<h3><a class="anchor" id="FAQ1"></a>
+What can I do to contribute to %OpenANN?</h3>
+<p>There is a list of open issues at our github page: <a href="https://github.com/OpenANN/OpenANN/issues?state=open" target="_blank">issues</a>.</p>
+<h3><a class="anchor" id="FAQ2"></a>
+How can I verify my contribution?</h3>
+<ol type="1">
+<li>Write unit tests.</li>
+<li>Use Cppcheck: <div class="fragment"><pre class="fragment">cppcheck -q --enable=all &lt;files&gt; </pre></div>.</li>
+<li>Maybe add an example or a benchmark for major components like a new type of learner.</li>
+<li>Use valgrind to check for memory leaks etc.</li>
+</ol>
+<h3><a class="anchor" id="FAQ3"></a>
+How can I minimize the time that is required to switch between different build types (Debug and Release)?</h3>
 <p>Both build types can be maintained simultanously: </p>
 <div class="fragment"><pre class="fragment">mkdir build/Debug
 mkdir build/Release
@@ -142,11 +152,7 @@ make
 cd ../Release
 cmake -D CMAKE_BUILD_TYPE:String=Release ../..
 make
-</pre></div><ul>
-<li>What can I do to contribute to OpenANN?</li>
-</ul>
-<p>There is a list of open issues at our github page: <a href="https://github.com/OpenANN/OpenANN/issues?state=open" target="_blank">issues</a>. </p>
-</div></div><!-- contents -->
+</pre></div> </div></div><!-- contents -->
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -164,7 +170,7 @@ make
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jun 18 2013 10:11:40 for OpenANN by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Jun 21 2013 08:32:07 for OpenANN by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.6.1
 </small></address>

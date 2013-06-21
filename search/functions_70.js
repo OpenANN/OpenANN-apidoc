@@ -11,6 +11,7 @@ var searchData=
   ['predict',['predict',['../classnet_1_1Net.html#a1c86e639d03ee234f542c7dcd4984b82',1,'net::Net']]],
   ['predictclass',['predictClass',['../classTwoSpiralsVisualization.html#af3134cb419527f9307237069f1bb0dd9',1,'TwoSpiralsVisualization']]],
   ['print',['print',['../classOpenANN_1_1OpenANNLibraryInfo.html#a2ae9474546576fb5369a398820c971ff',1,'OpenANN::OpenANNLibraryInfo']]],
+  ['print_5fusage',['print_usage',['../namespacebenchmark.html#a6c29ee91e439085c3704ff49f1bce14a',1,'benchmark']]],
   ['printresult',['printResult',['../p300_8cpp.html#ad44a201649d57e4c0e865348c62cce46',1,'p300.cpp']]],
   ['printresults',['printResults',['../polebalancing_8cpp.html#a664e8a5cfa363436bb437eb6936ce215',1,'polebalancing.cpp']]],
   ['printusage',['printUsage',['../dpb_8cpp.html#aead97c99e70c0da7036fbbe230ef68b6',1,'dpb.cpp']]],

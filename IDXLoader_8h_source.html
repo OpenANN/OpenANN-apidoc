@@ -141,7 +141,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a name="l00037"></a>00037 
 <a name="l00038"></a><a class="code" href="classIDXLoader.html#a3fff49de465f8d6b86cce7ffcff432db">00038</a>   <span class="keywordtype">void</span> <a class="code" href="classIDXLoader.html#a3fff49de465f8d6b86cce7ffcff432db">load</a>(<span class="keywordtype">bool</span> <a class="code" href="namespaceOpenANN.html#a42ed5ec7a923a27aa6449ac07aa359f3" title="Train a feedforward neural network supervised.">train</a>, <span class="keywordtype">int</span> maxN)
 <a name="l00039"></a>00039   {
-<a name="l00040"></a>00040     <span class="keywordtype">int</span>&amp; N = train ? <a class="code" href="classIDXLoader.html#aa7366a6887fdf262d42d72a1e37e5b90">trainingN</a> : <a class="code" href="classIDXLoader.html#ae570613cb78f6ee1744c50b2b854e752">testN</a>;
+<a name="l00040"></a>00040     <span class="keywordtype">int</span>&amp; <a class="code" href="namespacexor.html#a62d8983058580a0a33ba5a5ac62fa4bf">N</a> = train ? <a class="code" href="classIDXLoader.html#aa7366a6887fdf262d42d72a1e37e5b90">trainingN</a> : <a class="code" href="classIDXLoader.html#ae570613cb78f6ee1744c50b2b854e752">testN</a>;
 <a name="l00041"></a>00041     Eigen::MatrixXd&amp; input = train ? <a class="code" href="classIDXLoader.html#a1206428d6bec6d645656b57c362aa6c6">trainingInput</a> : <a class="code" href="classIDXLoader.html#ad12cfd3bf9bcdf82639c0f346a79be6c">testInput</a>;
 <a name="l00042"></a>00042     Eigen::MatrixXd&amp; output = train ? <a class="code" href="classIDXLoader.html#a1c273431879ddd37f82e4c25a54451c5">trainingOutput</a> : <a class="code" href="classIDXLoader.html#acdc6d0ec09a67cbed4f762ab9f9ba14d">testOutput</a>;
 <a name="l00043"></a>00043     <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> tmp = 0;
@@ -178,7 +178,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a name="l00074"></a>00074     <span class="keywordtype">int</span> colNumber = <a class="code" href="classIDXLoader.html#a6de2a25dbb2eae355a6e41b8cd0ef07d">padToX</a> &gt; (int)cols ? <a class="code" href="classIDXLoader.html#a6de2a25dbb2eae355a6e41b8cd0ef07d">padToX</a> : (<span class="keywordtype">int</span>)cols;
 <a name="l00075"></a>00075 
 <a name="l00076"></a>00076     input.resize(N, <a class="code" href="classIDXLoader.html#a164cd20816bda6c2906534d5425a2821">D</a>);
-<a name="l00077"></a>00077     <span class="keywordflow">for</span>(<span class="keywordtype">int</span> n = 0; n &lt; N; n++)
+<a name="l00077"></a>00077     <span class="keywordflow">for</span>(<span class="keywordtype">int</span> n = 0; n &lt; <a class="code" href="namespacexor.html#a62d8983058580a0a33ba5a5ac62fa4bf">N</a>; n++)
 <a name="l00078"></a>00078     {
 <a name="l00079"></a>00079       <span class="keywordtype">int</span> r = 0;
 <a name="l00080"></a>00080       <span class="keywordflow">for</span>(; r &lt; (int) rows; r++)
@@ -229,7 +229,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a name="l00125"></a>00125     <a class="code" href="classIDXLoader.html#a68066d7a10494a04b56777dd7933f5cd">F</a> = 10;
 <a name="l00126"></a>00126 
 <a name="l00127"></a>00127     output.resize(N, <a class="code" href="classIDXLoader.html#a68066d7a10494a04b56777dd7933f5cd">F</a>);
-<a name="l00128"></a>00128     <span class="keywordflow">for</span>(<span class="keywordtype">int</span> n = 0; n &lt; N; n++)
+<a name="l00128"></a>00128     <span class="keywordflow">for</span>(<span class="keywordtype">int</span> n = 0; n &lt; <a class="code" href="namespacexor.html#a62d8983058580a0a33ba5a5ac62fa4bf">N</a>; n++)
 <a name="l00129"></a>00129     {
 <a name="l00130"></a>00130       read(labelFile, tmp);
 <a name="l00131"></a>00131       <span class="keywordflow">for</span>(<span class="keywordtype">int</span> c = 0; c &lt; <a class="code" href="classIDXLoader.html#a68066d7a10494a04b56777dd7933f5cd">F</a>; c++)
@@ -239,7 +239,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a name="l00135"></a>00135 
 <a name="l00136"></a>00136 <span class="keyword">private</span>:
 <a name="l00137"></a>00137   <span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;
-<a name="l00138"></a>00138   <span class="keywordtype">void</span> read(std::fstream&amp; stream, T&amp; t)
+<a name="l00138"></a>00138   <span class="keywordtype">void</span> read(std::fstream&amp; stream, <a class="code" href="namespacesine.html#af7bc9ef776655c0a81491e70a9cc70fb">T</a>&amp; t)
 <a name="l00139"></a>00139   {
 <a name="l00140"></a>00140     stream.read(reinterpret_cast&lt;char*&gt;(&amp;t), <span class="keyword">sizeof</span>(t));
 <a name="l00141"></a>00141     <span class="keywordflow">if</span>(<span class="keyword">sizeof</span>(t) == 4)
@@ -268,7 +268,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jun 18 2013 10:11:39 for OpenANN by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Jun 21 2013 08:32:06 for OpenANN by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.6.1
 </small></address>

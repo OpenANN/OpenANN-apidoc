@@ -110,7 +110,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a name="l00006"></a>00006 <span class="preprocessor">#include &lt;cmath&gt;</span>
 <a name="l00007"></a>00007 
 <a name="l00008"></a>00008 <span class="keyword">template</span>&lt;<span class="keyword">typename</span> T, <span class="keywordtype">int</span> M, <span class="keywordtype">int</span> N&gt;
-<a name="l00009"></a><a class="code" href="EigenWrapper_8h.html#a29e25e7bdf352143dc0323a42da9f68a">00009</a> <span class="keywordtype">bool</span> <a class="code" href="EigenWrapper_8h.html#a29e25e7bdf352143dc0323a42da9f68a">equals</a>(<span class="keyword">const</span> Eigen::Matrix&lt;T, M, N&gt;&amp; a, <span class="keyword">const</span> Eigen::Matrix&lt;T, M, N&gt;&amp; b, T delta)
+<a name="l00009"></a><a class="code" href="EigenWrapper_8h.html#a29e25e7bdf352143dc0323a42da9f68a">00009</a> <span class="keywordtype">bool</span> <a class="code" href="EigenWrapper_8h.html#a29e25e7bdf352143dc0323a42da9f68a">equals</a>(<span class="keyword">const</span> Eigen::Matrix&lt;T, M, N&gt;&amp; a, <span class="keyword">const</span> Eigen::Matrix&lt;T, M, N&gt;&amp; b, <a class="code" href="namespacesine.html#af7bc9ef776655c0a81491e70a9cc70fb">T</a> delta)
 <a name="l00010"></a>00010 {
 <a name="l00011"></a>00011   Eigen::Matrix&lt;T, M, N&gt; d = a - b;
 <a name="l00012"></a>00012   <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 0; i &lt; d.rows(); i++) <span class="keywordflow">for</span>(<span class="keywordtype">int</span> j = 0; j &lt; d.cols(); j++)
@@ -177,7 +177,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jun 18 2013 10:11:39 for OpenANN by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Jun 21 2013 08:32:07 for OpenANN by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.6.1
 </small></address>

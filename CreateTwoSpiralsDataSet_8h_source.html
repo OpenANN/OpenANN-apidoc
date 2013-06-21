@@ -131,30 +131,30 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a name="l00041"></a>00041     <span class="keyword">const</span> <span class="keywordtype">double</span> radius = maxDiameter * (104 * density - i) / (104 * density);
 <a name="l00042"></a>00042     <span class="comment">// x and y are based upon cos and sin of the current radius</span>
 <a name="l00043"></a>00043     <span class="keyword">const</span> <span class="keywordtype">double</span> x = radius * cos(angle);
-<a name="l00044"></a>00044     <span class="keyword">const</span> <span class="keywordtype">double</span> y = radius * sin(angle);
+<a name="l00044"></a>00044     <span class="keyword">const</span> <span class="keywordtype">double</span> <a class="code" href="namespacexor.html#a4b0815bd9eab5b886401f4ffa16b4135">y</a> = radius * sin(angle);
 <a name="l00045"></a>00045 
 <a name="l00046"></a>00046     <span class="keywordflow">if</span>(i == points)
 <a name="l00047"></a>00047     {
-<a name="l00048"></a>00048       Xtr.row(trIdx) &lt;&lt; x, y;
+<a name="l00048"></a>00048       Xtr.row(trIdx) &lt;&lt; x, <a class="code" href="namespacexor.html#a4b0815bd9eab5b886401f4ffa16b4135">y</a>;
 <a name="l00049"></a>00049       Ytr.row(trIdx) &lt;&lt; 1.0;
-<a name="l00050"></a>00050       Xte.row(trIdx) &lt;&lt; -x, -y;
+<a name="l00050"></a>00050       Xte.row(trIdx) &lt;&lt; -x, -<a class="code" href="namespacexor.html#a4b0815bd9eab5b886401f4ffa16b4135">y</a>;
 <a name="l00051"></a>00051       Yte.row(teIdx) &lt;&lt; -1.0;
 <a name="l00052"></a>00052     }
 <a name="l00053"></a>00053     <span class="keywordflow">else</span> <span class="keywordflow">if</span>(i % 2 == 0)
 <a name="l00054"></a>00054     {
 <a name="l00055"></a>00055       <a class="code" href="AssertionMacros_8h.html#a435995e2daf03d6980a0ac5368572e01">OPENANN_CHECK_WITHIN</a>(trIdx, 0, points);
-<a name="l00056"></a>00056       Xtr.row(trIdx) &lt;&lt; x, y;
+<a name="l00056"></a>00056       Xtr.row(trIdx) &lt;&lt; x, <a class="code" href="namespacexor.html#a4b0815bd9eab5b886401f4ffa16b4135">y</a>;
 <a name="l00057"></a>00057       Ytr.row(trIdx) &lt;&lt; 1.0;
-<a name="l00058"></a>00058       Xtr.row(trIdx + 1) &lt;&lt; -x, -y;
+<a name="l00058"></a>00058       Xtr.row(trIdx + 1) &lt;&lt; -x, -<a class="code" href="namespacexor.html#a4b0815bd9eab5b886401f4ffa16b4135">y</a>;
 <a name="l00059"></a>00059       Ytr.row(trIdx + 1) &lt;&lt; -1.0;
 <a name="l00060"></a>00060       trIdx += 2;
 <a name="l00061"></a>00061     }
 <a name="l00062"></a>00062     <span class="keywordflow">else</span>
 <a name="l00063"></a>00063     {
 <a name="l00064"></a>00064       <a class="code" href="AssertionMacros_8h.html#a435995e2daf03d6980a0ac5368572e01">OPENANN_CHECK_WITHIN</a>(teIdx, 0, points);
-<a name="l00065"></a>00065       Xte.row(teIdx) &lt;&lt; x, y;
+<a name="l00065"></a>00065       Xte.row(teIdx) &lt;&lt; x, <a class="code" href="namespacexor.html#a4b0815bd9eab5b886401f4ffa16b4135">y</a>;
 <a name="l00066"></a>00066       Yte.row(teIdx) &lt;&lt; 1.0;
-<a name="l00067"></a>00067       Xte.row(teIdx + 1) &lt;&lt; -x, -y;
+<a name="l00067"></a>00067       Xte.row(teIdx + 1) &lt;&lt; -x, -<a class="code" href="namespacexor.html#a4b0815bd9eab5b886401f4ffa16b4135">y</a>;
 <a name="l00068"></a>00068       Yte.row(teIdx + 1) &lt;&lt; -1.0;
 <a name="l00069"></a>00069       teIdx += 2;
 <a name="l00070"></a>00070     }
@@ -183,7 +183,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jun 18 2013 10:11:39 for OpenANN by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Jun 21 2013 08:32:06 for OpenANN by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.6.1
 </small></address>

@@ -1,6 +1,7 @@
 var searchData=
 [
   ['cg',['CG',['../classOpenANN_1_1CG.html',1,'OpenANN']]],
+  ['cg',['CG',['../classoptimization_1_1CG.html',1,'optimization']]],
   ['cifarloader',['CIFARLoader',['../classCIFARLoader.html',1,'']]],
   ['compressed',['Compressed',['../classOpenANN_1_1Compressed.html',1,'OpenANN']]],
   ['compressionmatrixfactory',['CompressionMatrixFactory',['../classOpenANN_1_1CompressionMatrixFactory.html',1,'OpenANN']]],

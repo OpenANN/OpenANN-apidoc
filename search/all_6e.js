@@ -1,13 +1,13 @@
 var searchData=
 [
-  ['n',['N',['../classOpenANN_1_1DirectStorageDataSet.html#ae12f3cd7c7f60c0b50c95add59fe6be6',1,'OpenANN::DirectStorageDataSet::N()'],['../classOpenANN_1_1Learner.html#a1139025ce7e94c77bec8af30acf01626',1,'OpenANN::Learner::N()'],['../classBCIDataSet.html#a50320c2ea8d7942f9f2e76c91e39794b',1,'BCIDataSet::N()']]],
+  ['n',['N',['../classOpenANN_1_1DirectStorageDataSet.html#ae12f3cd7c7f60c0b50c95add59fe6be6',1,'OpenANN::DirectStorageDataSet::N()'],['../classOpenANN_1_1Learner.html#a1139025ce7e94c77bec8af30acf01626',1,'OpenANN::Learner::N()'],['../classBCIDataSet.html#a50320c2ea8d7942f9f2e76c91e39794b',1,'BCIDataSet::N()'],['../namespacexor.html#a62d8983058580a0a33ba5a5ac62fa4bf',1,'xor.N()']]],
   ['name',['name',['../classOpenANN_1_1Logger.html#a93f8682c3bccd65c41a7aa389924452e',1,'OpenANN::Logger::name()'],['../classOpenANN_1_1CG.html#ad9aef62da6b764f13007f64458d8570e',1,'OpenANN::CG::name()'],['../classOpenANN_1_1IPOPCMAES.html#ac72ddd25c908421d17975664ce24fae6',1,'OpenANN::IPOPCMAES::name()'],['../classOpenANN_1_1LMA.html#a8fc07e3f06efc9ddbd6fe6df45108f33',1,'OpenANN::LMA::name()'],['../classOpenANN_1_1MBSGD.html#af986194f6d3719467f9dd43b120afbd8',1,'OpenANN::MBSGD::name()'],['../classOpenANN_1_1Optimizer.html#ae622b25a58b293c9e84b255289bf0d7d',1,'OpenANN::Optimizer::name()']]],
-  ['net',['Net',['../classOpenANN_1_1Net.html',1,'OpenANN']]],
-  ['net',['net',['../namespacenet.html',1,'net'],['../classOpenANN_1_1Net.html#ad210613fa80e831588138475f5e8bd86',1,'OpenANN::Net::Net()'],['../agent_8cpp.html#a474ff98ad9b3a9eb55cfd3c3d4ec5e38',1,'net():&#160;agent.cpp']]],
   ['net',['Net',['../classnet_1_1Net.html',1,'net']]],
+  ['net',['net',['../namespacenet.html',1,'net'],['../classOpenANN_1_1Net.html#ad210613fa80e831588138475f5e8bd86',1,'OpenANN::Net::Net()'],['../namespacesine.html#a4159b2add29f03a8d46e6560b7385b60',1,'sine.net()'],['../namespacexor.html#a8f2aa6e79055ef2a9b01b86f16ec9775',1,'xor.net()'],['../agent_8cpp.html#a474ff98ad9b3a9eb55cfd3c3d4ec5e38',1,'net():&#160;agent.cpp']]],
+  ['net',['Net',['../classOpenANN_1_1Net.html',1,'OpenANN']]],
   ['net_2eh',['Net.h',['../Net_8h.html',1,'']]],
   ['net_2epyx',['net.pyx',['../net_8pyx.html',1,'']]],
-  ['neuroevolutionagent',['NeuroEvolutionAgent',['../classNeuroEvolutionAgent.html',1,'NeuroEvolutionAgent'],['../classNeuroEvolutionAgent.html#a19ba8148ac7d8b9b7e8a783ff5eff931',1,'NeuroEvolutionAgent::NeuroEvolutionAgent()']]],
+  ['neuroevolutionagent',['NeuroEvolutionAgent',['../classNeuroEvolutionAgent.html',1,'NeuroEvolutionAgent'],['../classNeuroEvolutionAgent.html#aa7f4e8f281ccf43acf05d3ebd6e196e4',1,'NeuroEvolutionAgent::NeuroEvolutionAgent()']]],
   ['neuroevolutionagent_2ecpp',['NeuroEvolutionAgent.cpp',['../NeuroEvolutionAgent_8cpp.html',1,'']]],
   ['neuroevolutionagent_2eh',['NeuroEvolutionAgent.h',['../NeuroEvolutionAgent_8h.html',1,'']]],
   ['no_5fe_5fdefined',['NO_E_DEFINED',['../namespaceOpenANN.html#a051970efc9e88e608fbe5cf52db8e87da17d0c22335a6cd499897aeb1f8352bb4',1,'OpenANN']]],

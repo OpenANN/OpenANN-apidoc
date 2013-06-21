@@ -1,8 +1,9 @@
 var searchData=
 [
+  ['t',['T',['../namespacesine.html#af7bc9ef776655c0a81491e70a9cc70fb',1,'sine']]],
   ['tanh',['TANH',['../classnet_1_1Activation.html#a29bbb2e729072e30cf746a74bd8ad0df',1,'net::Activation.TANH()'],['../namespaceOpenANN.html#a90e479eb54bb177043ce063427022968a46423bdbbb11f9476b855af34db6276c',1,'OpenANN::TANH()']]],
   ['tanh_5fscaled',['TANH_SCALED',['../classnet_1_1Activation.html#a468969623a014f55a5c417bcf570fa79',1,'net::Activation.TANH_SCALED()'],['../namespaceOpenANN.html#a90e479eb54bb177043ce063427022968a928953a3ea8b89bcc0ee5f2ac5b8fdd6',1,'OpenANN::TANH_SCALED()']]],
-  ['target',['target',['../classOpenANN_1_1Logger.html#a105ba158cb4b7bfb5079b353a6e90bf3',1,'OpenANN::Logger::target()'],['../classdataset_1_1Dataset.html#ad4a579dfbc5d1e45ee550ec8d390d22a',1,'dataset::Dataset.target()'],['../classOpenANN_1_1Logger.html#addcfd83b57d2be2b33e3577e35a8c97a',1,'OpenANN::Logger::Target()']]],
+  ['target',['Target',['../classOpenANN_1_1Logger.html#addcfd83b57d2be2b33e3577e35a8c97a',1,'OpenANN::Logger::Target()'],['../classOpenANN_1_1Logger.html#a105ba158cb4b7bfb5079b353a6e90bf3',1,'OpenANN::Logger::target()'],['../classdataset_1_1Dataset.html#ad4a579dfbc5d1e45ee550ec8d390d22a',1,'dataset::Dataset.target()']]],
   ['targetchar',['targetChar',['../classBCIDataSet.html#ad0e6d84890d4cf842dab6b3b304b53d8',1,'BCIDataSet']]],
   ['tcpclient_2ecpp',['tcpClient.cpp',['../tcpClient_8cpp.html',1,'']]],
   ['tempinstance',['tempInstance',['../classBCIDataSet.html#a52dc5b45714c782c773e2b51ac3923ee',1,'BCIDataSet']]],

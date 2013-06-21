@@ -125,48 +125,47 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a name="l00044"></a>00044   <span class="keywordtype">double</span> maxForce;
 <a name="l00045"></a>00045 
 <a name="l00046"></a>00046   <span class="keywordtype">double</span> massLength1;
-<a name="l00047"></a>00047   <span class="keywordtype">double</span> massLength2;
-<a name="l00048"></a>00048 
-<a name="l00049"></a>00049   Environment::Action actionSpaceLo;
-<a name="l00050"></a>00050   Environment::Action actionSpaceHi;
-<a name="l00051"></a>00051   Environment::State stateSpaceLo;
-<a name="l00052"></a>00052   Environment::State StateSpaceHi;
-<a name="l00054"></a>00054   Environment::State stateNormalizationVector;
-<a name="l00055"></a>00055 
-<a name="l00056"></a>00056   Environment::Action action;
-<a name="l00057"></a>00057   Environment::State state;
-<a name="l00058"></a>00058   Environment::State normalizedState;
-<a name="l00059"></a>00059   <span class="keywordtype">int</span> step;
-<a name="l00060"></a>00060 <span class="keyword">public</span>:
-<a name="l00061"></a>00061   <a class="code" href="classSinglePoleBalancing.html#a1ec4574beb94dfbbdf9e5527b6112c97">SinglePoleBalancing</a>(<span class="keywordtype">bool</span> fullyObservable = <span class="keyword">true</span>);
-<a name="l00062"></a>00062   <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classSinglePoleBalancing.html#a270fea5e02c6ad06b0a79089d7d92c94">actionSpaceContinuous</a>() <span class="keyword">const</span>;
-<a name="l00063"></a>00063   <span class="keyword">virtual</span> <span class="keywordtype">int</span> <a class="code" href="classSinglePoleBalancing.html#a8931029a3c1e46bdd40f89f74da0871a">actionSpaceDimension</a>() <span class="keyword">const</span>;
-<a name="l00064"></a>00064   <span class="keyword">virtual</span> <span class="keywordtype">int</span> <a class="code" href="classSinglePoleBalancing.html#ad0c69ca733a8b49804269cc5a4225f8d">actionSpaceElements</a>() <span class="keyword">const</span>;
-<a name="l00065"></a>00065   <span class="keyword">virtual</span> <span class="keyword">const</span> <a class="code" href="classOpenANN_1_1ActionSpace.html#aaac017b03d927e7fe400ca3fb8905cdf">Action</a>&amp; <a class="code" href="classSinglePoleBalancing.html#ab21c10cc5dd934ea8108bbf222047173">actionSpaceLowerBound</a>() <span class="keyword">const</span>;
-<a name="l00066"></a>00066   <span class="keyword">virtual</span> <span class="keyword">const</span> <a class="code" href="classOpenANN_1_1ActionSpace.html#aaac017b03d927e7fe400ca3fb8905cdf">Action</a>&amp; <a class="code" href="classSinglePoleBalancing.html#af7d4f6a176f04ebeba4a4c2b74fd30ec">actionSpaceUpperBound</a>() <span class="keyword">const</span>;
-<a name="l00067"></a>00067   <span class="keyword">virtual</span> <span class="keywordtype">double</span> <a class="code" href="classSinglePoleBalancing.html#ae27b035cc5a8133b37c597c875c3a188">deltaT</a>() <span class="keyword">const</span>;
-<a name="l00068"></a>00068   <span class="keyword">virtual</span> <span class="keyword">const</span> <a class="code" href="classOpenANN_1_1ActionSpace.html#aaac017b03d927e7fe400ca3fb8905cdf">Action</a>&amp; <a class="code" href="classSinglePoleBalancing.html#a5048524b4ea4b963cba60bda93e55956">getAction</a>() <span class="keyword">const</span>;
-<a name="l00069"></a>00069   <span class="keyword">virtual</span> <span class="keyword">const</span> ActionSpace::A&amp; <a class="code" href="classSinglePoleBalancing.html#a2a4af3beccdbbe428b0075efadd4c809">getDiscreteActionSpace</a>() <span class="keyword">const</span>;
-<a name="l00070"></a>00070   <span class="keyword">virtual</span> <span class="keyword">const</span> StateSpace::S&amp; <a class="code" href="classSinglePoleBalancing.html#a18ae89af269ad47046c5a7b81732ad46">getDiscreteStateSpace</a>() <span class="keyword">const</span>;
-<a name="l00071"></a>00071   <span class="keyword">virtual</span> <span class="keyword">const</span> <a class="code" href="classOpenANN_1_1StateSpace.html#a9f9f30d1d4987e17843ea412e0d8a34c">State</a>&amp; <a class="code" href="classSinglePoleBalancing.html#ab554e29abf4e1a32b505341f2ee8111c">getState</a>() <span class="keyword">const</span>;
-<a name="l00072"></a>00072   <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classSinglePoleBalancing.html#a898074ad53239fd76698df02d5d7d720">restart</a>();
-<a name="l00073"></a>00073   <span class="keyword">virtual</span> <span class="keywordtype">double</span> <a class="code" href="classSinglePoleBalancing.html#a47bcbb2fb6936b867657a956d3b266d7">reward</a>() <span class="keyword">const</span>;
-<a name="l00074"></a>00074   <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classSinglePoleBalancing.html#adc7412e4675e066ddc6ebfd3ef83c3db">stateSpaceContinuous</a>() <span class="keyword">const</span>;
-<a name="l00075"></a>00075   <span class="keyword">virtual</span> <span class="keywordtype">int</span> <a class="code" href="classSinglePoleBalancing.html#ac1ed637a2911865023a8a43b0f3c1e99">stateSpaceDimension</a>() <span class="keyword">const</span>;
-<a name="l00076"></a>00076   <span class="keyword">virtual</span> <span class="keywordtype">int</span> <a class="code" href="classSinglePoleBalancing.html#a46d0d0b0cc44a0fb77344b5f65560075">stateSpaceElements</a>() <span class="keyword">const</span>;
-<a name="l00077"></a>00077   <span class="keyword">virtual</span> <span class="keyword">const</span> <a class="code" href="classOpenANN_1_1StateSpace.html#a9f9f30d1d4987e17843ea412e0d8a34c">State</a>&amp; <a class="code" href="classSinglePoleBalancing.html#a404ffd80542f0bbeaae709bad6b77e14">stateSpaceLowerBound</a>() <span class="keyword">const</span>;
-<a name="l00078"></a>00078   <span class="keyword">virtual</span> <span class="keyword">const</span> <a class="code" href="classOpenANN_1_1StateSpace.html#a9f9f30d1d4987e17843ea412e0d8a34c">State</a>&amp; <a class="code" href="classSinglePoleBalancing.html#a28bd0b69bd8b134f941b95a8466700cb">stateSpaceUpperBound</a>() <span class="keyword">const</span>;
-<a name="l00079"></a>00079   <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classSinglePoleBalancing.html#afee2e4a61218dcb0d3659d56ecaa58bb">stateTransition</a>(<span class="keyword">const</span> <a class="code" href="classOpenANN_1_1ActionSpace.html#aaac017b03d927e7fe400ca3fb8905cdf">Action</a>&amp; action);
-<a name="l00080"></a>00080   <span class="keyword">virtual</span> <span class="keywordtype">int</span> <a class="code" href="classSinglePoleBalancing.html#aa6cb0ab88c0c4ce35fb9415d629bcf67">stepsInEpisode</a>() <span class="keyword">const</span>;
-<a name="l00081"></a>00081   <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classSinglePoleBalancing.html#ae5821dcf538dcd3c1582261128181d03">successful</a>() <span class="keyword">const</span>;
-<a name="l00082"></a>00082   <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classSinglePoleBalancing.html#a1552cc7db3f302f8431d4c8859d696ef">terminalState</a>() <span class="keyword">const</span>;
-<a name="l00083"></a>00083 <span class="keyword">private</span>:
-<a name="l00084"></a>00084   <span class="keywordtype">void</span> normalizeState();
-<a name="l00085"></a>00085   <a class="code" href="classOpenANN_1_1StateSpace.html#a9f9f30d1d4987e17843ea412e0d8a34c">State</a> derivative(<span class="keyword">const</span> <a class="code" href="classOpenANN_1_1StateSpace.html#a9f9f30d1d4987e17843ea412e0d8a34c">State</a>&amp; state, <span class="keywordtype">double</span> force);
-<a name="l00086"></a>00086   <a class="code" href="classOpenANN_1_1StateSpace.html#a9f9f30d1d4987e17843ea412e0d8a34c">State</a> rk4(<span class="keyword">const</span> <a class="code" href="classOpenANN_1_1StateSpace.html#a9f9f30d1d4987e17843ea412e0d8a34c">State</a>&amp; state, <span class="keywordtype">double</span> force, <span class="keyword">const</span> <a class="code" href="classOpenANN_1_1StateSpace.html#a9f9f30d1d4987e17843ea412e0d8a34c">State</a>&amp; derivative);
-<a name="l00087"></a>00087 };
-<a name="l00088"></a>00088 
-<a name="l00089"></a>00089 <span class="preprocessor">#endif // SINGLE_POLE_BALANCING_H_</span>
+<a name="l00047"></a>00047 
+<a name="l00048"></a>00048   Environment::Action actionSpaceLo;
+<a name="l00049"></a>00049   Environment::Action actionSpaceHi;
+<a name="l00050"></a>00050   Environment::State stateSpaceLo;
+<a name="l00051"></a>00051   Environment::State StateSpaceHi;
+<a name="l00053"></a>00053   Environment::State stateNormalizationVector;
+<a name="l00054"></a>00054 
+<a name="l00055"></a>00055   Environment::Action action;
+<a name="l00056"></a>00056   Environment::State state;
+<a name="l00057"></a>00057   Environment::State normalizedState;
+<a name="l00058"></a>00058   <span class="keywordtype">int</span> step;
+<a name="l00059"></a>00059 <span class="keyword">public</span>:
+<a name="l00060"></a>00060   <a class="code" href="classSinglePoleBalancing.html#a1ec4574beb94dfbbdf9e5527b6112c97">SinglePoleBalancing</a>(<span class="keywordtype">bool</span> fullyObservable = <span class="keyword">true</span>);
+<a name="l00061"></a>00061   <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classSinglePoleBalancing.html#a270fea5e02c6ad06b0a79089d7d92c94">actionSpaceContinuous</a>() <span class="keyword">const</span>;
+<a name="l00062"></a>00062   <span class="keyword">virtual</span> <span class="keywordtype">int</span> <a class="code" href="classSinglePoleBalancing.html#a8931029a3c1e46bdd40f89f74da0871a">actionSpaceDimension</a>() <span class="keyword">const</span>;
+<a name="l00063"></a>00063   <span class="keyword">virtual</span> <span class="keywordtype">int</span> <a class="code" href="classSinglePoleBalancing.html#ad0c69ca733a8b49804269cc5a4225f8d">actionSpaceElements</a>() <span class="keyword">const</span>;
+<a name="l00064"></a>00064   <span class="keyword">virtual</span> <span class="keyword">const</span> <a class="code" href="classOpenANN_1_1ActionSpace.html#aaac017b03d927e7fe400ca3fb8905cdf">Action</a>&amp; <a class="code" href="classSinglePoleBalancing.html#ab21c10cc5dd934ea8108bbf222047173">actionSpaceLowerBound</a>() <span class="keyword">const</span>;
+<a name="l00065"></a>00065   <span class="keyword">virtual</span> <span class="keyword">const</span> <a class="code" href="classOpenANN_1_1ActionSpace.html#aaac017b03d927e7fe400ca3fb8905cdf">Action</a>&amp; <a class="code" href="classSinglePoleBalancing.html#af7d4f6a176f04ebeba4a4c2b74fd30ec">actionSpaceUpperBound</a>() <span class="keyword">const</span>;
+<a name="l00066"></a>00066   <span class="keyword">virtual</span> <span class="keywordtype">double</span> <a class="code" href="classSinglePoleBalancing.html#ae27b035cc5a8133b37c597c875c3a188">deltaT</a>() <span class="keyword">const</span>;
+<a name="l00067"></a>00067   <span class="keyword">virtual</span> <span class="keyword">const</span> <a class="code" href="classOpenANN_1_1ActionSpace.html#aaac017b03d927e7fe400ca3fb8905cdf">Action</a>&amp; <a class="code" href="classSinglePoleBalancing.html#a5048524b4ea4b963cba60bda93e55956">getAction</a>() <span class="keyword">const</span>;
+<a name="l00068"></a>00068   <span class="keyword">virtual</span> <span class="keyword">const</span> ActionSpace::A&amp; <a class="code" href="classSinglePoleBalancing.html#a2a4af3beccdbbe428b0075efadd4c809">getDiscreteActionSpace</a>() <span class="keyword">const</span>;
+<a name="l00069"></a>00069   <span class="keyword">virtual</span> <span class="keyword">const</span> StateSpace::S&amp; <a class="code" href="classSinglePoleBalancing.html#a18ae89af269ad47046c5a7b81732ad46">getDiscreteStateSpace</a>() <span class="keyword">const</span>;
+<a name="l00070"></a>00070   <span class="keyword">virtual</span> <span class="keyword">const</span> <a class="code" href="classOpenANN_1_1StateSpace.html#a9f9f30d1d4987e17843ea412e0d8a34c">State</a>&amp; <a class="code" href="classSinglePoleBalancing.html#ab554e29abf4e1a32b505341f2ee8111c">getState</a>() <span class="keyword">const</span>;
+<a name="l00071"></a>00071   <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classSinglePoleBalancing.html#a898074ad53239fd76698df02d5d7d720">restart</a>();
+<a name="l00072"></a>00072   <span class="keyword">virtual</span> <span class="keywordtype">double</span> <a class="code" href="classSinglePoleBalancing.html#a47bcbb2fb6936b867657a956d3b266d7">reward</a>() <span class="keyword">const</span>;
+<a name="l00073"></a>00073   <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classSinglePoleBalancing.html#adc7412e4675e066ddc6ebfd3ef83c3db">stateSpaceContinuous</a>() <span class="keyword">const</span>;
+<a name="l00074"></a>00074   <span class="keyword">virtual</span> <span class="keywordtype">int</span> <a class="code" href="classSinglePoleBalancing.html#ac1ed637a2911865023a8a43b0f3c1e99">stateSpaceDimension</a>() <span class="keyword">const</span>;
+<a name="l00075"></a>00075   <span class="keyword">virtual</span> <span class="keywordtype">int</span> <a class="code" href="classSinglePoleBalancing.html#a46d0d0b0cc44a0fb77344b5f65560075">stateSpaceElements</a>() <span class="keyword">const</span>;
+<a name="l00076"></a>00076   <span class="keyword">virtual</span> <span class="keyword">const</span> <a class="code" href="classOpenANN_1_1StateSpace.html#a9f9f30d1d4987e17843ea412e0d8a34c">State</a>&amp; <a class="code" href="classSinglePoleBalancing.html#a404ffd80542f0bbeaae709bad6b77e14">stateSpaceLowerBound</a>() <span class="keyword">const</span>;
+<a name="l00077"></a>00077   <span class="keyword">virtual</span> <span class="keyword">const</span> <a class="code" href="classOpenANN_1_1StateSpace.html#a9f9f30d1d4987e17843ea412e0d8a34c">State</a>&amp; <a class="code" href="classSinglePoleBalancing.html#a28bd0b69bd8b134f941b95a8466700cb">stateSpaceUpperBound</a>() <span class="keyword">const</span>;
+<a name="l00078"></a>00078   <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classSinglePoleBalancing.html#afee2e4a61218dcb0d3659d56ecaa58bb">stateTransition</a>(<span class="keyword">const</span> <a class="code" href="classOpenANN_1_1ActionSpace.html#aaac017b03d927e7fe400ca3fb8905cdf">Action</a>&amp; action);
+<a name="l00079"></a>00079   <span class="keyword">virtual</span> <span class="keywordtype">int</span> <a class="code" href="classSinglePoleBalancing.html#aa6cb0ab88c0c4ce35fb9415d629bcf67">stepsInEpisode</a>() <span class="keyword">const</span>;
+<a name="l00080"></a>00080   <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classSinglePoleBalancing.html#ae5821dcf538dcd3c1582261128181d03">successful</a>() <span class="keyword">const</span>;
+<a name="l00081"></a>00081   <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classSinglePoleBalancing.html#a1552cc7db3f302f8431d4c8859d696ef">terminalState</a>() <span class="keyword">const</span>;
+<a name="l00082"></a>00082 <span class="keyword">private</span>:
+<a name="l00083"></a>00083   <span class="keywordtype">void</span> normalizeState();
+<a name="l00084"></a>00084   <a class="code" href="classOpenANN_1_1StateSpace.html#a9f9f30d1d4987e17843ea412e0d8a34c">State</a> derivative(<span class="keyword">const</span> <a class="code" href="classOpenANN_1_1StateSpace.html#a9f9f30d1d4987e17843ea412e0d8a34c">State</a>&amp; state, <span class="keywordtype">double</span> force);
+<a name="l00085"></a>00085   <a class="code" href="classOpenANN_1_1StateSpace.html#a9f9f30d1d4987e17843ea412e0d8a34c">State</a> rk4(<span class="keyword">const</span> <a class="code" href="classOpenANN_1_1StateSpace.html#a9f9f30d1d4987e17843ea412e0d8a34c">State</a>&amp; state, <span class="keywordtype">double</span> force, <span class="keyword">const</span> <a class="code" href="classOpenANN_1_1StateSpace.html#a9f9f30d1d4987e17843ea412e0d8a34c">State</a>&amp; derivative);
+<a name="l00086"></a>00086 };
+<a name="l00087"></a>00087 
+<a name="l00088"></a>00088 <span class="preprocessor">#endif // SINGLE_POLE_BALANCING_H_</span>
 </pre></div></div><!-- contents -->
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
@@ -185,7 +184,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jun 18 2013 10:11:39 for OpenANN by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Jun 21 2013 08:32:06 for OpenANN by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.6.1
 </small></address>

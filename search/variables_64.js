@@ -1,6 +1,9 @@
 var searchData=
 [
-  ['d',['D',['../classOpenANN_1_1DirectStorageDataSet.html#aa8873c90f5367c1a516dd71c157ec727',1,'OpenANN::DirectStorageDataSet::D()'],['../classCIFARLoader.html#a5f0b0b6167bc659ddc4534b39f204834',1,'CIFARLoader::D()'],['../classIDXLoader.html#a164cd20816bda6c2906534d5425a2821',1,'IDXLoader::D()'],['../classBCIDataSet_1_1BCIDataCache.html#aeb6a645bb9b67333e306cc51aac956ad',1,'BCIDataSet::BCIDataCache::D()'],['../classBCIDataSet.html#a025c56730d84dbe85b86f81cb5274e30',1,'BCIDataSet::D()']]],
+  ['d',['D',['../classOpenANN_1_1DirectStorageDataSet.html#aa8873c90f5367c1a516dd71c157ec727',1,'OpenANN::DirectStorageDataSet::D()'],['../classCIFARLoader.html#a5f0b0b6167bc659ddc4534b39f204834',1,'CIFARLoader::D()'],['../classIDXLoader.html#a164cd20816bda6c2906534d5425a2821',1,'IDXLoader::D()'],['../classBCIDataSet_1_1BCIDataCache.html#aeb6a645bb9b67333e306cc51aac956ad',1,'BCIDataSet::BCIDataCache::D()'],['../classBCIDataSet.html#a025c56730d84dbe85b86f81cb5274e30',1,'BCIDataSet::D()'],['../namespacexor.html#a2494cad7998a3b25f12934868b3eea85',1,'xor.D()']]],
+  ['data_5ffiles',['DATA_FILES',['../namespacebenchmark.html#ab6b7689681aad0d76983e3fab61d8953',1,'benchmark']]],
+  ['data_5ffolder',['DATA_FOLDER',['../namespacebenchmark.html#a1e5adedb91ff22e22e32b8aaa6f46f2e',1,'benchmark']]],
+  ['dataset',['dataset',['../namespacesine.html#a92a37131bfa9abc97a5d8285566d0a90',1,'sine.dataset()'],['../namespacexor.html#a5c565fce464df4fa26aa0268fdfe47c9',1,'xor.dataset()']]],
   ['datatype',['dataType',['../classBCIDataSet.html#ae5a010c75dff2682903f30930b0915b6',1,'BCIDataSet']]],
   ['deactivate',['deactivate',['../classOpenANN_1_1Logger.html#adee5fc9ea1e80bfa1ecf9c9a0484512d',1,'OpenANN::Logger']]],
   ['debug',['DEBUG',['../namespaceutil.html#accf1dbd453d6a542608a375d95829fd1',1,'util']]],
@@ -12,7 +15,7 @@ var searchData=
   ['deltas',['deltas',['../classOpenANN_1_1SigmaPi.html#a2580c7123e9deca9c26d962bd6a55f1f',1,'OpenANN::SigmaPi']]],
   ['description',['DESCRIPTION',['../classOpenANN_1_1OpenANNLibraryInfo.html#a72bb04c16025c66e88ee07eee188d1a8',1,'OpenANN::OpenANNLibraryInfo']]],
   ['dimensions',['dimensions',['../classOpenANN_1_1OutputInfo.html#a754883365abe65167f2b6e6de63640c0',1,'OpenANN::OutputInfo']]],
-  ['directory',['directory',['../classIDXLoader.html#acefca652c25eb0e3c8f8ad57757a8386',1,'IDXLoader::directory()'],['../classBCIDataSet.html#a1940ff0f8c90bbf0ff6fdd67fdcbc8dc',1,'BCIDataSet::directory()']]],
+  ['directory',['directory',['../classIDXLoader.html#acefca652c25eb0e3c8f8ad57757a8386',1,'IDXLoader::directory()'],['../classBCIDataSet.html#a1940ff0f8c90bbf0ff6fdd67fdcbc8dc',1,'BCIDataSet::directory()'],['../namespacebenchmark.html#a61fc6eaf071c20b0c44ff42e7db1af13',1,'benchmark.DIRECTORY()'],['../namespacebenchmark.html#a31ede5bc610aa78d68d695c98a68b279',1,'benchmark.directory()']]],
   ['distance',['distance',['../classlayer_1_1SigmaPiLayer.html#a45021ea368fe972cd4cd35dd95c4cd71',1,'layer::SigmaPiLayer']]],
   ['distortionh',['distortionH',['../classDistorter.html#aa9031dddebf681a27ad66e25df587f59',1,'Distorter']]],
   ['distortionv',['distortionV',['../classDistorter.html#a8678befe066d0562e55ca6a66906a83a',1,'Distorter']]],

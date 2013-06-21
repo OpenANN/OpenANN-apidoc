@@ -13,7 +13,7 @@ var searchData=
   ['actionspacelowerbound',['actionSpaceLowerBound',['../classOpenANN_1_1ActionSpace.html#ae8eb6b304fda802e7bdcfbd8ed080bf4',1,'OpenANN::ActionSpace::actionSpaceLowerBound()'],['../classDoublePoleBalancing.html#a46140fa16573c48ff396f05f94d9bc18',1,'DoublePoleBalancing::actionSpaceLowerBound()'],['../classSinglePoleBalancing.html#ab21c10cc5dd934ea8108bbf222047173',1,'SinglePoleBalancing::actionSpaceLowerBound()']]],
   ['actionspaceupperbound',['actionSpaceUpperBound',['../classOpenANN_1_1ActionSpace.html#a176c00fdccb0c05907307ada6cad9c83',1,'OpenANN::ActionSpace::actionSpaceUpperBound()'],['../classDoublePoleBalancing.html#ae78bb4f38b308415f41118fa0cb5b5ef',1,'DoublePoleBalancing::actionSpaceUpperBound()'],['../classSinglePoleBalancing.html#af7d4f6a176f04ebeba4a4c2b74fd30ec',1,'SinglePoleBalancing::actionSpaceUpperBound()']]],
   ['activation',['Activation',['../classnet_1_1Activation.html',1,'net']]],
-  ['activationfunction',['ActivationFunction',['../namespaceOpenANN.html#a90e479eb54bb177043ce063427022968',1,'OpenANN::ActivationFunction()'],['../namespaceOpenANN.html#ab7f3ed147bc552e4b8a9077f6f3df495',1,'OpenANN::activationFunction(ActivationFunction act, const Eigen::MatrixXd &amp;a, Eigen::MatrixXd &amp;z)']]],
+  ['activationfunction',['activationFunction',['../namespaceOpenANN.html#ab7f3ed147bc552e4b8a9077f6f3df495',1,'OpenANN::activationFunction(ActivationFunction act, const Eigen::MatrixXd &amp;a, Eigen::MatrixXd &amp;z)'],['../namespaceOpenANN.html#a90e479eb54bb177043ce063427022968',1,'OpenANN::ActivationFunction()']]],
   ['activationfunctionderivative',['activationFunctionDerivative',['../namespaceOpenANN.html#a878e245d8884e43ef328313c8d0c0f8b',1,'OpenANN']]],
   ['activationfunctions_2eh',['ActivationFunctions.h',['../ActivationFunctions_8h.html',1,'']]],
   ['add_5flayer',['add_layer',['../classnet_1_1Net.html#a09b709652b5dfce36ea2e9a5d008cb65',1,'net::Net']]],
@@ -32,8 +32,8 @@ var searchData=
   ['agent_5fstep',['agent_step',['../agent_8cpp.html#a8021c7a37d43e1bc7cd26aff95598c0c',1,'agent_step(double state_data[], double reward, double out_action[]):&#160;agent.cpp'],['../agent_8h.html#a8021c7a37d43e1bc7cd26aff95598c0c',1,'agent_step(double state_data[], double reward, double out_action[]):&#160;agent.cpp']]],
   ['alpha',['alpha',['../structOpenANN_1_1TriangleConstraint_1_1AngleTuple.html#ab18bf156ca97893b2de474fbb6cd13fa',1,'OpenANN::TriangleConstraint::AngleTuple::alpha()'],['../classDistorter.html#a8e9428e2306523f5ed193939ac710c5e',1,'Distorter::alpha()']]],
   ['alpha_5fbeta_5ffilter_5flayer',['alpha_beta_filter_layer',['../classnet_1_1Net.html#a42f8095e2f44652840221b090ae77180',1,'net::Net']]],
-  ['alphabetafilter',['AlphaBetaFilter',['../classOpenANN_1_1AlphaBetaFilter.html#a9deb7caa99face8dc654ae2f9bc43291',1,'OpenANN::AlphaBetaFilter']]],
   ['alphabetafilter',['AlphaBetaFilter',['../classOpenANN_1_1AlphaBetaFilter.html',1,'OpenANN']]],
+  ['alphabetafilter',['AlphaBetaFilter',['../classOpenANN_1_1AlphaBetaFilter.html#a9deb7caa99face8dc654ae2f9bc43291',1,'OpenANN::AlphaBetaFilter']]],
   ['alphabetafilter_2eh',['AlphaBetaFilter.h',['../AlphaBetaFilter_8h.html',1,'']]],
   ['alphabetafilterlayer',['alphaBetaFilterLayer',['../classOpenANN_1_1Net.html#afd059da5e50abba4bcec4c0d3cc4a8ef',1,'OpenANN::Net']]],
   ['angletuple',['AngleTuple',['../structOpenANN_1_1TriangleConstraint_1_1AngleTuple.html#a64d262a2c3fb7d82870ab6ca68541426',1,'OpenANN::TriangleConstraint::AngleTuple']]],
@@ -42,6 +42,9 @@ var searchData=
   ['applydistortion',['applyDistortion',['../classDistorter.html#ad2fbb43e6f7344786745dbbe392256d0',1,'Distorter']]],
   ['applydistortions',['applyDistortions',['../classDistorter.html#a4bd6f8031ec58bd7c6699cf29da8ba7c',1,'Distorter']]],
   ['architecture_2edox',['architecture.dox',['../architecture_8dox.html',1,'']]],
+  ['archive',['ARCHIVE',['../namespacebenchmark.html#adb193a5201fcfff8612d7fb87c8d41b4',1,'benchmark']]],
+  ['archive_5fname',['ARCHIVE_NAME',['../namespacebenchmark.html#a4f3c3fe9de93acf34a06db995e078ad5',1,'benchmark']]],
+  ['archives',['ARCHIVES',['../namespacebenchmark.html#a5bbcfb74f7931efc837f1254e787424e',1,'benchmark']]],
   ['assertionmacros_2eh',['AssertionMacros.h',['../AssertionMacros_8h.html',1,'']]],
   ['average',['AVERAGE',['../classOpenANN_1_1CompressionMatrixFactory.html#ab606d0a54050f39523b52ebef7531f07a6b022b6372396aa37a1f8b962e2d6535',1,'OpenANN::CompressionMatrixFactory']]]
 ];

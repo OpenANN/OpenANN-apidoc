@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['t',['T',['../namespacesine.html#af7bc9ef776655c0a81491e70a9cc70fb',1,'sine']]],
   ['tanh',['TANH',['../classnet_1_1Activation.html#a29bbb2e729072e30cf746a74bd8ad0df',1,'net::Activation']]],
   ['tanh_5fscaled',['TANH_SCALED',['../classnet_1_1Activation.html#a468969623a014f55a5c417bcf570fa79',1,'net::Activation']]],
   ['target',['target',['../classOpenANN_1_1Logger.html#a105ba158cb4b7bfb5079b353a6e90bf3',1,'OpenANN::Logger']]],

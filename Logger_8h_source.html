@@ -175,56 +175,60 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a name="l00103"></a>00103   <span class="keyword">static</span> std::ostream&amp; <a class="code" href="classOpenANN_1_1Log.html#a7965e588811ee605a66589b88bf61f24">getStream</a>();
 <a name="l00104"></a>00104   <span class="keyword">static</span> <a class="code" href="classOpenANN_1_1Log.html#a3ca17978b9cee3a67f86c7fbdc5758dd">LogLevel</a>&amp; <a class="code" href="classOpenANN_1_1Log.html#ad064b8b69722da409e37df81e95e59fc">getLevel</a>();
 <a name="l00105"></a>00105 
-<a name="l00106"></a>00106 <span class="keyword">private</span>:
-<a name="l00107"></a>00107   std::ostringstream message;
-<a name="l00108"></a>00108   <a class="code" href="classOpenANN_1_1Log.html#a3ca17978b9cee3a67f86c7fbdc5758dd">LogLevel</a> level;
-<a name="l00109"></a>00109 };
-<a name="l00110"></a>00110 
-<a name="l00111"></a>00111 
-<a name="l00117"></a><a class="code" href="classOpenANN_1_1Logger.html">00117</a> <span class="keyword">class </span><a class="code" href="classOpenANN_1_1Logger.html" title="A local logger that can redirect messages to several targets.">Logger</a>
-<a name="l00118"></a>00118 {
-<a name="l00119"></a>00119 <span class="keyword">public</span>:
-<a name="l00123"></a><a class="code" href="classOpenANN_1_1Logger.html#adee5fc9ea1e80bfa1ecf9c9a0484512d">00123</a>   <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code" href="classOpenANN_1_1Logger.html#adee5fc9ea1e80bfa1ecf9c9a0484512d" title="Deactivate all Logger objects.">deactivate</a>;
-<a name="l00127"></a><a class="code" href="classOpenANN_1_1Logger.html#addcfd83b57d2be2b33e3577e35a8c97a">00127</a>   <span class="keyword">enum</span> <a class="code" href="classOpenANN_1_1Logger.html#addcfd83b57d2be2b33e3577e35a8c97a" title="Target of the Logger.">Target</a>
-<a name="l00128"></a>00128   {
-<a name="l00129"></a><a class="code" href="classOpenANN_1_1Logger.html#addcfd83b57d2be2b33e3577e35a8c97aa17e40bc85bd28af81a84ea5e1d0ae31b">00129</a>     <a class="code" href="classOpenANN_1_1Logger.html#addcfd83b57d2be2b33e3577e35a8c97aa17e40bc85bd28af81a84ea5e1d0ae31b" title="Log nothing.">NONE</a>,       
-<a name="l00130"></a><a class="code" href="classOpenANN_1_1Logger.html#addcfd83b57d2be2b33e3577e35a8c97aaee076c908ecd21344d2cf57cc59df897">00130</a>     <a class="code" href="classOpenANN_1_1Logger.html#addcfd83b57d2be2b33e3577e35a8c97aaee076c908ecd21344d2cf57cc59df897" title="Log to stdout.">CONSOLE</a>,    
-<a name="l00131"></a><a class="code" href="classOpenANN_1_1Logger.html#addcfd83b57d2be2b33e3577e35a8c97aa2fd930527d1e5224296128bfe4a31caa">00131</a>     <a class="code" href="classOpenANN_1_1Logger.html#addcfd83b57d2be2b33e3577e35a8c97aa2fd930527d1e5224296128bfe4a31caa" title="Log to file &quot;name&quot;.log.">FILE</a>,       
-<a name="l00132"></a><a class="code" href="classOpenANN_1_1Logger.html#addcfd83b57d2be2b33e3577e35a8c97aa450ee24b1dcb8356f4cbddfaa2a4dd51">00132</a>     <a class="code" href="classOpenANN_1_1Logger.html#addcfd83b57d2be2b33e3577e35a8c97aa450ee24b1dcb8356f4cbddfaa2a4dd51" title="Log to file &quot;name&quot;-&quot;time&quot;.log.">APPEND_FILE</a> 
-<a name="l00133"></a>00133   } <a class="code" href="classOpenANN_1_1Logger.html#a105ba158cb4b7bfb5079b353a6e90bf3">target</a>;
-<a name="l00134"></a>00134 
-<a name="l00135"></a><a class="code" href="classOpenANN_1_1Logger.html#a93f8682c3bccd65c41a7aa389924452e">00135</a>   std::string <a class="code" href="classOpenANN_1_1Logger.html#a93f8682c3bccd65c41a7aa389924452e">name</a>;
-<a name="l00136"></a><a class="code" href="classOpenANN_1_1Logger.html#a4be25843f35d9dd2531599a1e6cd162a">00136</a>   std::ofstream <a class="code" href="classOpenANN_1_1Logger.html#a4be25843f35d9dd2531599a1e6cd162a">file</a>;
-<a name="l00137"></a>00137 
-<a name="l00138"></a>00138   <a class="code" href="classOpenANN_1_1Logger.html#a18cfebfdb40a77eadba80e80806fcf4c">Logger</a>(<a class="code" href="classOpenANN_1_1Logger.html#addcfd83b57d2be2b33e3577e35a8c97a" title="Target of the Logger.">Target</a> <a class="code" href="classOpenANN_1_1Logger.html#a105ba158cb4b7bfb5079b353a6e90bf3">target</a>, std::string <a class="code" href="classOpenANN_1_1Logger.html#a93f8682c3bccd65c41a7aa389924452e">name</a> = <span class="stringliteral">&quot;Logger&quot;</span>);
-<a name="l00139"></a>00139   <a class="code" href="classOpenANN_1_1Logger.html#ac9074b25a70f43807cabca688ad3a683">~Logger</a>();
-<a name="l00144"></a>00144   <span class="keywordtype">bool</span> <a class="code" href="classOpenANN_1_1Logger.html#ad24aae63f70225bfdca1af74375a929a" title="Check if the logger redirects to an existing target.">isActive</a>();
-<a name="l00145"></a>00145 };
-<a name="l00146"></a>00146 
-<a name="l00147"></a>00147 
-<a name="l00148"></a>00148 std::ostream&amp; <a class="code" href="namespaceOpenANN.html#a18a7a99d4abde506e7475d09527b3772">operator&lt;&lt;</a>(std::ostream&amp; os, <span class="keyword">const</span> <a class="code" href="structOpenANN_1_1FloatingPointFormatter.html" title="Wraps a value and its precision for logging.">FloatingPointFormatter</a>&amp; t);
-<a name="l00149"></a>00149 <a class="code" href="classOpenANN_1_1Logger.html" title="A local logger that can redirect messages to several targets.">Logger</a>&amp; <a class="code" href="namespaceOpenANN.html#a18a7a99d4abde506e7475d09527b3772">operator&lt;&lt;</a>(<a class="code" href="classOpenANN_1_1Logger.html" title="A local logger that can redirect messages to several targets.">Logger</a>&amp; <a class="code" href="agent_8cpp.html#ad6349ecd3290bc2b1caa3b1c6c0c40fc">logger</a>, <span class="keyword">const</span> <a class="code" href="structOpenANN_1_1FloatingPointFormatter.html" title="Wraps a value and its precision for logging.">FloatingPointFormatter</a>&amp; t);
-<a name="l00150"></a>00150 <span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;
-<a name="l00151"></a><a class="code" href="namespaceOpenANN.html#a7c73d3d8ef466f57717fcc2ce26fdc96">00151</a> <a class="code" href="classOpenANN_1_1Logger.html" title="A local logger that can redirect messages to several targets.">Logger</a>&amp; <a class="code" href="namespaceOpenANN.html#a18a7a99d4abde506e7475d09527b3772">operator&lt;&lt;</a>(<a class="code" href="classOpenANN_1_1Logger.html" title="A local logger that can redirect messages to several targets.">Logger</a>&amp; <a class="code" href="agent_8cpp.html#ad6349ecd3290bc2b1caa3b1c6c0c40fc">logger</a>, <span class="keyword">const</span> T&amp; t)
-<a name="l00152"></a>00152 {
-<a name="l00153"></a>00153   <span class="keywordflow">switch</span>(logger.<a class="code" href="classOpenANN_1_1Logger.html#a105ba158cb4b7bfb5079b353a6e90bf3">target</a>)
-<a name="l00154"></a>00154   {
-<a name="l00155"></a>00155   <span class="keywordflow">case</span> <a class="code" href="classOpenANN_1_1Logger.html#addcfd83b57d2be2b33e3577e35a8c97aaee076c908ecd21344d2cf57cc59df897" title="Log to stdout.">Logger::CONSOLE</a>:
-<a name="l00156"></a>00156     std::cout &lt;&lt; t &lt;&lt; std::flush;
-<a name="l00157"></a>00157     <span class="keywordflow">break</span>;
-<a name="l00158"></a>00158   <span class="keywordflow">case</span> <a class="code" href="classOpenANN_1_1Logger.html#addcfd83b57d2be2b33e3577e35a8c97aa450ee24b1dcb8356f4cbddfaa2a4dd51" title="Log to file &quot;name&quot;-&quot;time&quot;.log.">Logger::APPEND_FILE</a>:
-<a name="l00159"></a>00159   <span class="keywordflow">case</span> <a class="code" href="classOpenANN_1_1Logger.html#addcfd83b57d2be2b33e3577e35a8c97aa2fd930527d1e5224296128bfe4a31caa" title="Log to file &quot;name&quot;.log.">Logger::FILE</a>:
-<a name="l00160"></a>00160     logger.<a class="code" href="classOpenANN_1_1Logger.html#a4be25843f35d9dd2531599a1e6cd162a">file</a> &lt;&lt; t &lt;&lt; std::flush;
+<a name="l00106"></a>00106   <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="classOpenANN_1_1Log.html#aacfec7481f5ff858239e074f544edc08">setDisabled</a>();
+<a name="l00107"></a>00107   <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="classOpenANN_1_1Log.html#a4be9255991a917ed9e758918c712992f">setError</a>();
+<a name="l00108"></a>00108   <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="classOpenANN_1_1Log.html#a440a449424356a80b78eb2c2ab87769d">setInfo</a>();
+<a name="l00109"></a>00109   <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="classOpenANN_1_1Log.html#a8bb7d316dd655fc3387ea867202acfb9">setDebug</a>();
+<a name="l00110"></a>00110 <span class="keyword">private</span>:
+<a name="l00111"></a>00111   std::ostringstream message;
+<a name="l00112"></a>00112   <a class="code" href="classOpenANN_1_1Log.html#a3ca17978b9cee3a67f86c7fbdc5758dd">LogLevel</a> level;
+<a name="l00113"></a>00113 };
+<a name="l00114"></a>00114 
+<a name="l00115"></a>00115 
+<a name="l00121"></a><a class="code" href="classOpenANN_1_1Logger.html">00121</a> <span class="keyword">class </span><a class="code" href="classOpenANN_1_1Logger.html" title="A local logger that can redirect messages to several targets.">Logger</a>
+<a name="l00122"></a>00122 {
+<a name="l00123"></a>00123 <span class="keyword">public</span>:
+<a name="l00127"></a><a class="code" href="classOpenANN_1_1Logger.html#adee5fc9ea1e80bfa1ecf9c9a0484512d">00127</a>   <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code" href="classOpenANN_1_1Logger.html#adee5fc9ea1e80bfa1ecf9c9a0484512d" title="Deactivate all Logger objects.">deactivate</a>;
+<a name="l00131"></a><a class="code" href="classOpenANN_1_1Logger.html#addcfd83b57d2be2b33e3577e35a8c97a">00131</a>   <span class="keyword">enum</span> <a class="code" href="classOpenANN_1_1Logger.html#addcfd83b57d2be2b33e3577e35a8c97a" title="Target of the Logger.">Target</a>
+<a name="l00132"></a>00132   {
+<a name="l00133"></a><a class="code" href="classOpenANN_1_1Logger.html#addcfd83b57d2be2b33e3577e35a8c97aa17e40bc85bd28af81a84ea5e1d0ae31b">00133</a>     <a class="code" href="classOpenANN_1_1Logger.html#addcfd83b57d2be2b33e3577e35a8c97aa17e40bc85bd28af81a84ea5e1d0ae31b" title="Log nothing.">NONE</a>,       
+<a name="l00134"></a><a class="code" href="classOpenANN_1_1Logger.html#addcfd83b57d2be2b33e3577e35a8c97aaee076c908ecd21344d2cf57cc59df897">00134</a>     <a class="code" href="classOpenANN_1_1Logger.html#addcfd83b57d2be2b33e3577e35a8c97aaee076c908ecd21344d2cf57cc59df897" title="Log to stdout.">CONSOLE</a>,    
+<a name="l00135"></a><a class="code" href="classOpenANN_1_1Logger.html#addcfd83b57d2be2b33e3577e35a8c97aa2fd930527d1e5224296128bfe4a31caa">00135</a>     <a class="code" href="classOpenANN_1_1Logger.html#addcfd83b57d2be2b33e3577e35a8c97aa2fd930527d1e5224296128bfe4a31caa" title="Log to file &quot;name&quot;.log.">FILE</a>,       
+<a name="l00136"></a><a class="code" href="classOpenANN_1_1Logger.html#addcfd83b57d2be2b33e3577e35a8c97aa450ee24b1dcb8356f4cbddfaa2a4dd51">00136</a>     <a class="code" href="classOpenANN_1_1Logger.html#addcfd83b57d2be2b33e3577e35a8c97aa450ee24b1dcb8356f4cbddfaa2a4dd51" title="Log to file &quot;name&quot;-&quot;time&quot;.log.">APPEND_FILE</a> 
+<a name="l00137"></a>00137   } <a class="code" href="classOpenANN_1_1Logger.html#a105ba158cb4b7bfb5079b353a6e90bf3">target</a>;
+<a name="l00138"></a>00138 
+<a name="l00139"></a><a class="code" href="classOpenANN_1_1Logger.html#a93f8682c3bccd65c41a7aa389924452e">00139</a>   std::string <a class="code" href="classOpenANN_1_1Logger.html#a93f8682c3bccd65c41a7aa389924452e">name</a>;
+<a name="l00140"></a><a class="code" href="classOpenANN_1_1Logger.html#a4be25843f35d9dd2531599a1e6cd162a">00140</a>   std::ofstream <a class="code" href="classOpenANN_1_1Logger.html#a4be25843f35d9dd2531599a1e6cd162a">file</a>;
+<a name="l00141"></a>00141 
+<a name="l00142"></a>00142   <a class="code" href="classOpenANN_1_1Logger.html#a18cfebfdb40a77eadba80e80806fcf4c">Logger</a>(<a class="code" href="classOpenANN_1_1Logger.html#addcfd83b57d2be2b33e3577e35a8c97a" title="Target of the Logger.">Target</a> <a class="code" href="classOpenANN_1_1Logger.html#a105ba158cb4b7bfb5079b353a6e90bf3">target</a>, std::string <a class="code" href="classOpenANN_1_1Logger.html#a93f8682c3bccd65c41a7aa389924452e">name</a> = <span class="stringliteral">&quot;Logger&quot;</span>);
+<a name="l00143"></a>00143   <a class="code" href="classOpenANN_1_1Logger.html#ac9074b25a70f43807cabca688ad3a683">~Logger</a>();
+<a name="l00148"></a>00148   <span class="keywordtype">bool</span> <a class="code" href="classOpenANN_1_1Logger.html#ad24aae63f70225bfdca1af74375a929a" title="Check if the logger redirects to an existing target.">isActive</a>();
+<a name="l00149"></a>00149 };
+<a name="l00150"></a>00150 
+<a name="l00151"></a>00151 
+<a name="l00152"></a>00152 std::ostream&amp; <a class="code" href="namespaceOpenANN.html#a18a7a99d4abde506e7475d09527b3772">operator&lt;&lt;</a>(std::ostream&amp; os, <span class="keyword">const</span> <a class="code" href="structOpenANN_1_1FloatingPointFormatter.html" title="Wraps a value and its precision for logging.">FloatingPointFormatter</a>&amp; t);
+<a name="l00153"></a>00153 <a class="code" href="classOpenANN_1_1Logger.html" title="A local logger that can redirect messages to several targets.">Logger</a>&amp; <a class="code" href="namespaceOpenANN.html#a18a7a99d4abde506e7475d09527b3772">operator&lt;&lt;</a>(<a class="code" href="classOpenANN_1_1Logger.html" title="A local logger that can redirect messages to several targets.">Logger</a>&amp; <a class="code" href="agent_8cpp.html#ad6349ecd3290bc2b1caa3b1c6c0c40fc">logger</a>, <span class="keyword">const</span> <a class="code" href="structOpenANN_1_1FloatingPointFormatter.html" title="Wraps a value and its precision for logging.">FloatingPointFormatter</a>&amp; t);
+<a name="l00154"></a>00154 <span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;
+<a name="l00155"></a><a class="code" href="namespaceOpenANN.html#a7c73d3d8ef466f57717fcc2ce26fdc96">00155</a> <a class="code" href="classOpenANN_1_1Logger.html" title="A local logger that can redirect messages to several targets.">Logger</a>&amp; <a class="code" href="namespaceOpenANN.html#a18a7a99d4abde506e7475d09527b3772">operator&lt;&lt;</a>(<a class="code" href="classOpenANN_1_1Logger.html" title="A local logger that can redirect messages to several targets.">Logger</a>&amp; <a class="code" href="agent_8cpp.html#ad6349ecd3290bc2b1caa3b1c6c0c40fc">logger</a>, <span class="keyword">const</span> <a class="code" href="namespacesine.html#af7bc9ef776655c0a81491e70a9cc70fb">T</a>&amp; t)
+<a name="l00156"></a>00156 {
+<a name="l00157"></a>00157   <span class="keywordflow">switch</span>(logger.<a class="code" href="classOpenANN_1_1Logger.html#a105ba158cb4b7bfb5079b353a6e90bf3">target</a>)
+<a name="l00158"></a>00158   {
+<a name="l00159"></a>00159   <span class="keywordflow">case</span> <a class="code" href="classOpenANN_1_1Logger.html#addcfd83b57d2be2b33e3577e35a8c97aaee076c908ecd21344d2cf57cc59df897" title="Log to stdout.">Logger::CONSOLE</a>:
+<a name="l00160"></a>00160     std::cout &lt;&lt; t &lt;&lt; std::flush;
 <a name="l00161"></a>00161     <span class="keywordflow">break</span>;
-<a name="l00162"></a>00162   <span class="keywordflow">default</span>: <span class="comment">// do not log</span>
-<a name="l00163"></a>00163     <span class="keywordflow">break</span>;
-<a name="l00164"></a>00164   }
-<a name="l00165"></a>00165   <span class="keywordflow">return</span> <a class="code" href="agent_8cpp.html#ad6349ecd3290bc2b1caa3b1c6c0c40fc">logger</a>;
-<a name="l00166"></a>00166 }
-<a name="l00167"></a>00167 
-<a name="l00168"></a>00168 } <span class="comment">// namespace OpenANN</span>
-<a name="l00169"></a>00169 
-<a name="l00170"></a>00170 <span class="preprocessor">#endif // OPENANN_IO_LOGGER_H_</span>
+<a name="l00162"></a>00162   <span class="keywordflow">case</span> <a class="code" href="classOpenANN_1_1Logger.html#addcfd83b57d2be2b33e3577e35a8c97aa450ee24b1dcb8356f4cbddfaa2a4dd51" title="Log to file &quot;name&quot;-&quot;time&quot;.log.">Logger::APPEND_FILE</a>:
+<a name="l00163"></a>00163   <span class="keywordflow">case</span> <a class="code" href="classOpenANN_1_1Logger.html#addcfd83b57d2be2b33e3577e35a8c97aa2fd930527d1e5224296128bfe4a31caa" title="Log to file &quot;name&quot;.log.">Logger::FILE</a>:
+<a name="l00164"></a>00164     logger.<a class="code" href="classOpenANN_1_1Logger.html#a4be25843f35d9dd2531599a1e6cd162a">file</a> &lt;&lt; t &lt;&lt; std::flush;
+<a name="l00165"></a>00165     <span class="keywordflow">break</span>;
+<a name="l00166"></a>00166   <span class="keywordflow">default</span>: <span class="comment">// do not log</span>
+<a name="l00167"></a>00167     <span class="keywordflow">break</span>;
+<a name="l00168"></a>00168   }
+<a name="l00169"></a>00169   <span class="keywordflow">return</span> <a class="code" href="agent_8cpp.html#ad6349ecd3290bc2b1caa3b1c6c0c40fc">logger</a>;
+<a name="l00170"></a>00170 }
+<a name="l00171"></a>00171 
+<a name="l00172"></a>00172 } <span class="comment">// namespace OpenANN</span>
+<a name="l00173"></a>00173 
+<a name="l00174"></a>00174 <span class="preprocessor">#endif // OPENANN_IO_LOGGER_H_</span>
 </pre></div></div><!-- contents -->
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
@@ -243,7 +247,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jun 18 2013 10:11:39 for OpenANN by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Jun 21 2013 08:32:06 for OpenANN by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.6.1
 </small></address>

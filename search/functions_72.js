@@ -17,5 +17,13 @@ var searchData=
   ['reward',['reward',['../classOpenANN_1_1Environment.html#a86d5f4750e0a278a34f4dd9daa9038f0',1,'OpenANN::Environment::reward()'],['../classDoublePoleBalancing.html#ab5f78f302d1edc9f0d1705d4a1d617d9',1,'DoublePoleBalancing::reward()'],['../classSinglePoleBalancing.html#a47bcbb2fb6936b867657a956d3b266d7',1,'SinglePoleBalancing::reward()']]],
   ['rmse',['rmse',['../namespaceOpenANN.html#a09297b7d06f34d03b4f32278d89f8b9d',1,'OpenANN::rmse()'],['../namespaceevaluation.html#a8618b5fe64415e2067106f429a8fec33',1,'evaluation.rmse()']]],
   ['run',['run',['../classDoublePoleBalancingVisualization.html#a98655bc68db219be346eceab2ed8664d',1,'DoublePoleBalancingVisualization']]],
+  ['run_5fcifar10',['run_cifar10',['../namespacebenchmark.html#a452c3778b8f564a387179b93cf11d5e7',1,'benchmark']]],
+  ['run_5firis',['run_iris',['../namespacebenchmark.html#a19f27d3d7e92777e126b2d9b0c96b18f',1,'benchmark']]],
+  ['run_5fmnist',['run_mnist',['../namespacebenchmark.html#afab5eea50e5c8ad262afc16a0eba551e',1,'benchmark']]],
+  ['run_5foctopusarm',['run_octopusarm',['../namespacebenchmark.html#a30a47204f7f67dab15b94cfa5e66ab61',1,'benchmark']]],
+  ['run_5fp300speller',['run_p300speller',['../namespacebenchmark.html#a46acb35aada32055f1d70b4ab69f1f85',1,'benchmark']]],
+  ['run_5fpole_5fbalancing',['run_pole_balancing',['../namespacebenchmark.html#a581f96a6cf237a424312d11c18bf7f15',1,'benchmark']]],
+  ['run_5fsarcos',['run_sarcos',['../namespacebenchmark.html#a2a619c6160a098f51dc961322a81c32d',1,'benchmark']]],
+  ['run_5ftwo_5fspirals',['run_two_spirals',['../namespacebenchmark.html#a712cb295b35a74b0c212e186d2859258',1,'benchmark']]],
   ['runtest',['runTest',['../p300_8cpp.html#a47488025edeafb12fac43583a6b4ee3e',1,'p300.cpp']]]
 ];

@@ -93,8 +93,8 @@ A simple example in C++</h2>
   <span class="keyword">const</span> <span class="keywordtype">int</span> D = 2; <span class="comment">// number of inputs</span>
   <span class="keyword">const</span> <span class="keywordtype">int</span> F = 1; <span class="comment">// number of outputs</span>
   <span class="keyword">const</span> <span class="keywordtype">int</span> N = 4; <span class="comment">// size of training set</span>
-  Eigen::MatrixXd X(N, D); <span class="comment">// inputs</span>
-  Eigen::MatrixXd T(N, F); <span class="comment">// desired outputs (targets)</span>
+  Eigen::MatrixXd <a class="code" href="namespacesine.html#ade238e4085de7c3c789743621449d9bb">X</a>(N, D); <span class="comment">// inputs</span>
+  Eigen::MatrixXd <a class="code" href="namespacesine.html#af7bc9ef776655c0a81491e70a9cc70fb">T</a>(N, F); <span class="comment">// desired outputs (targets)</span>
   <span class="comment">// Each row represents an instance</span>
   X.row(0) &lt;&lt; 0.0, 1.0;
   T.row(0) &lt;&lt; 1.0;
@@ -116,7 +116,7 @@ A simple example in C++</h2>
   net.<a class="code" href="classOpenANN_1_1Learner.html#a24c588e03b847fc0479a681c77127cb4" title="Set training set.">trainingSet</a>(dataSet);
 
   <span class="comment">// Set stopping conditions</span>
-  <a class="code" href="classOpenANN_1_1StoppingCriteria.html" title="Stopping criteria for optimization algorithms.">StoppingCriteria</a> stop;
+  <a class="code" href="classOpenANN_1_1StoppingCriteria.html" title="Stopping criteria for optimization algorithms.">StoppingCriteria</a> <a class="code" href="namespacesine.html#aab61aa2dc4b07809c6bf8cd61f4a85fc">stop</a>;
   stop.<a class="code" href="classOpenANN_1_1StoppingCriteria.html#adb37c8f3a5ff2657f7c876c36d75ff9b" title="Minimal objective function difference between iterations.">minimalValueDifferences</a> = 1e-10;
   <span class="comment">// Train network, i.e. minimize sum of squared errors (SSE) with</span>
   <span class="comment">// Levenberg-Marquardt optimization algorithm until the stopping criteria</span>
@@ -124,9 +124,9 @@ A simple example in C++</h2>
   <a class="code" href="namespaceOpenANN.html#a42ed5ec7a923a27aa6449ac07aa359f3" title="Train a feedforward neural network supervised.">train</a>(net, <span class="stringliteral">&quot;LMA&quot;</span>, <a class="code" href="namespaceOpenANN.html#a051970efc9e88e608fbe5cf52db8e87da1db09e64eac69d268920ca4c5052a5bc" title="Sum of squared errors (regression, two classes)">SSE</a>, stop);
 
   <span class="comment">// Use network to predict labels of the training data</span>
-  <span class="keywordflow">for</span>(<span class="keywordtype">int</span> n = 0; n &lt; N; n++)
+  <span class="keywordflow">for</span>(<span class="keywordtype">int</span> n = 0; n &lt; <a class="code" href="namespacexor.html#a62d8983058580a0a33ba5a5ac62fa4bf">N</a>; n++)
   {
-    Eigen::VectorXd y = <a class="code" href="agent_8cpp.html#a474ff98ad9b3a9eb55cfd3c3d4ec5e38">net</a>(dataSet.getInstance(n));
+    Eigen::VectorXd <a class="code" href="namespacexor.html#a4b0815bd9eab5b886401f4ffa16b4135">y</a> = <a class="code" href="agent_8cpp.html#a474ff98ad9b3a9eb55cfd3c3d4ec5e38">net</a>(dataSet.getInstance(n));
     std::cout &lt;&lt; y &lt;&lt; std::endl;
   }
 
@@ -141,29 +141,29 @@ A simple example in Python</h2>
 <span class="keyword">import</span> numpy
 
 <span class="keywordflow">if</span> __name__ == <span class="stringliteral">&quot;__main__&quot;</span>:
-<span class="preprocessor">  # Create dataset</span>
-<span class="preprocessor"></span>  X = numpy.array([[0, 1], [0, 0], [1, 1], [1, 0]])
-  Y = numpy.array([[1], [0], [0], [1]])
-  D = X.shape[1]
-  F = Y.shape[1]
-  N = X.shape[0]
-  dataset = Dataset(X, Y)
+    <span class="comment"># Create dataset</span>
+    X = numpy.array([[0, 1], [0, 0], [1, 1], [1, 0]])
+    Y = numpy.array([[1], [0], [0], [1]])
+    D = X.shape[1]
+    F = Y.shape[1]
+    N = X.shape[0]
+    dataset = Dataset(X, Y)
 
-  <span class="preprocessor"># Create network</span>
-<span class="preprocessor"></span>  net = Net()
-  net.input_layer(D)
-  net.fully_connected_layer(3, Activation.<a class="code" href="namespaceOpenANN.html#a90e479eb54bb177043ce063427022968ab78593ece2753677cebf6e7626324df0" title="Logistic sigmoid activation function.">LOGISTIC</a>)
-  net.output_layer(F, Activation.<a class="code" href="namespaceOpenANN.html#a90e479eb54bb177043ce063427022968ab78593ece2753677cebf6e7626324df0" title="Logistic sigmoid activation function.">LOGISTIC</a>)
+    <span class="comment"># Create network</span>
+    net = Net()
+    net.input_layer(D)
+    net.fully_connected_layer(3, Activation.LOGISTIC)
+    net.output_layer(F, Activation.LOGISTIC)
 
-  <span class="preprocessor"># Train network</span>
-<span class="preprocessor"></span>  stop_dict = {<span class="stringliteral">&quot;minimalValueDifferences&quot;</span> : 1e-10}
-  lma = LMA(stop_dict)
-  lma.<a class="code" href="namespaceoptimization.html#ac106289e651da896bab084ee0fc794b8">optimize</a>(net, dataset)
+    <span class="comment"># Train network</span>
+    stop_dict = {<span class="stringliteral">&quot;minimalValueDifferences&quot;</span> : 1e-10}
+    lma = LMA(stop_dict)
+    lma.optimize(net, dataset)
 
-  <span class="preprocessor"># Use network</span>
-<span class="preprocessor"></span>  <span class="keywordflow">for</span> n in range(N):
-    y = net.predict(X[n])
-    print y
+    <span class="comment"># Use network</span>
+    <span class="keywordflow">for</span> n <span class="keywordflow">in</span> range(N):
+        y = net.predict(X[n])
+        <span class="keywordflow">print</span> y
 </pre></div><h2><a class="anchor" id="MoreExamples"></a>
 More Examples</h2>
 <p>Classification</p>
@@ -194,7 +194,7 @@ More Examples</h2>
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jun 18 2013 10:11:40 for OpenANN by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Jun 21 2013 08:32:07 for OpenANN by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.6.1
 </small></address>
