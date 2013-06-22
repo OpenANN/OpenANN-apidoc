@@ -144,11 +144,11 @@ Public Member Functions</h2></td></tr>
 <div class="textblock"><p>Levenberg-Marquardt Algorithm. </p>
 <p>This algorithm works especially well for least squares optimization. The optimization will stop if one of the following stopping criteria is satisfied:</p>
 <ul>
-<li><img class="formulaInl" alt="$ |g| < $" src="form_39.png"/> stop.minimalSearchSpaceStep</li>
-<li><img class="formulaInl" alt="$ |E^{t+1}-E^{t}| \leq $" src="form_40.png"/> stop.minimalValueDifferences <img class="formulaInl" alt="$ \cdot max\{|E^{t+1}|,|E^{t}|,1\} $" src="form_41.png"/></li>
-<li><img class="formulaInl" alt="$ t > $" src="form_42.png"/> stop.maximalIterations</li>
+<li><img class="formulaInl" alt="$ |g| < $" src="form_34.png"/> stop.minimalSearchSpaceStep</li>
+<li><img class="formulaInl" alt="$ |E^{t+1}-E^{t}| \leq $" src="form_35.png"/> stop.minimalValueDifferences <img class="formulaInl" alt="$ \cdot max\{|E^{t+1}|,|E^{t}|,1\} $" src="form_36.png"/></li>
+<li><img class="formulaInl" alt="$ t > $" src="form_37.png"/> stop.maximalIterations</li>
 </ul>
-<p>The optimization is cubic in each iteration, i. e. the complexity is <img class="formulaInl" alt="$ O(L^3) $" src="form_43.png"/>, where L is the number of parameters to optimize. In addition, the jacobian matrix is required for this algorithm, that is the required space is in <img class="formulaInl" alt="$ O(L N) $" src="form_44.png"/>, where N is the size of the training set. However, <a class="el" href="classOpenANN_1_1LMA.html" title="Levenberg-Marquardt Algorithm.">LMA</a> requires only a few iterations to converge. Thus, it works very well up to a few thousand parameters and a few thousand training examples. In summary, the requirements are:</p>
+<p>The optimization is cubic in each iteration, i. e. the complexity is <img class="formulaInl" alt="$ O(L^3) $" src="form_38.png"/>, where L is the number of parameters to optimize. In addition, the jacobian matrix is required for this algorithm, that is the required space is in <img class="formulaInl" alt="$ O(L N) $" src="form_39.png"/>, where N is the size of the training set. However, <a class="el" href="classOpenANN_1_1LMA.html" title="Levenberg-Marquardt Algorithm.">LMA</a> requires only a few iterations to converge. Thus, it works very well up to a few thousand parameters and a few thousand training examples. In summary, the requirements are:</p>
 <ul>
 <li>sum of squared error (SSE)</li>
 <li>maximum of a few thousand parameters</li>
@@ -347,7 +347,7 @@ Public Member Functions</h2></td></tr>
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jun 21 2013 08:32:07 for OpenANN by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Jun 22 2013 18:31:51 for OpenANN by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.6.1
 </small></address>

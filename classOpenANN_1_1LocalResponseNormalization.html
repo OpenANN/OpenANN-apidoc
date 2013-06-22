@@ -143,8 +143,8 @@ Public Member Functions</h2></td></tr>
 <div class="textblock"><p>Local response normalization. </p>
 <p>This layer encourages the competition between neurons at the same spatial positions. It implements a form of lateral inhibition that is found in real neurons. It can be interpreted as "brightness normalization" in visual models [1].</p>
 <p>It requires a three-dimensional input so that we can calculate the output as</p>
-<p><img class="formulaInl" alt="$ y^i_{rc} = x^i_{rc} / \left( k + \alpha \sum_{j=max(0, i-n/2)}^{min(N-1, i+n/2)} x^j_{rc} \right)^{\beta}, $" src="form_35.png"/></p>
-<p>where i is the index of the feature map (or filter bank), r is the row, and c the column of the neuron respectively, N is the number of feature maps and <img class="formulaInl" alt="$ k, n, \alpha, \beta $" src="form_36.png"/> are hyperparameters that have to be found with a validation set. A reasonable choice is e.g. <img class="formulaInl" alt="$ k=2, n=5, \alpha=10^{-4}, \beta=0.75 $" src="form_37.png"/> [1].</p>
+<p><img class="formulaInl" alt="$ y^i_{rc} = x^i_{rc} / \left( k + \alpha \sum_{j=max(0, i-n/2)}^{min(N-1, i+n/2)} x^j_{rc} \right)^{\beta}, $" src="form_30.png"/></p>
+<p>where i is the index of the feature map (or filter bank), r is the row, and c the column of the neuron respectively, N is the number of feature maps and <img class="formulaInl" alt="$ k, n, \alpha, \beta $" src="form_31.png"/> are hyperparameters that have to be found with a validation set. A reasonable choice is e.g. <img class="formulaInl" alt="$ k=2, n=5, \alpha=10^{-4}, \beta=0.75 $" src="form_32.png"/> [1].</p>
 <p>[1] Krizhevsky, Alexander, Sutskever, Ilya and Hinton, Geoffrey E.: ImageNet Classification with Deep <a class="el" href="classOpenANN_1_1Convolutional.html" title="Applies a learnable filter on a 2D or 3D input.">Convolutional</a> Neural Networks, Advances in Neural Information Processing Systems 25, pp. 1106–1114, 2012.</p>
 <p>[2] Hinton, G. E., Srivastava, N., Krizhevsky, A., Sutskever, I. and Salakhutdinov, R. R.: Improving neural networks by preventing co-adaptation of feature detectors, 2012. </p>
 </div><hr/><h2>Constructor &amp; Destructor Documentation</h2>
@@ -400,7 +400,7 @@ Public Member Functions</h2></td></tr>
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jun 21 2013 08:32:07 for OpenANN by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Jun 22 2013 18:31:51 for OpenANN by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.6.1
 </small></address>

@@ -77,7 +77,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">Creating a data set </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>In order to train a neural network, we need a training set consisting of <img class="formulaInl" alt="$ N $" src="form_15.png"/> inputs <img class="formulaInl" alt="$ x_n $" src="form_61.png"/> and outputs <img class="formulaInl" alt="$ y_n $" src="form_62.png"/> of an underlying unknown function <img class="formulaInl" alt="$ f $" src="form_63.png"/> we want to approximate.</p>
+<div class="textblock"><p>In order to train a neural network, we need a training set consisting of <img class="formulaInl" alt="$ N $" src="form_15.png"/> inputs <img class="formulaInl" alt="$ x_n $" src="form_54.png"/> and outputs <img class="formulaInl" alt="$ y_n $" src="form_55.png"/> of an underlying unknown function <img class="formulaInl" alt="$ f $" src="form_56.png"/> we want to approximate.</p>
 <p>There are two ways to pass a data set to the neural network:</p>
 <ul>
 <li>You can arrange your data in matrices.</li>
@@ -87,7 +87,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 Arranging data in matrices</h2>
 <div class="fragment"><pre class="fragment"><span class="keyword">using namespace </span>OpenANN;
 
-<span class="keywordtype">int</span> <a class="code" href="dpb_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627">main</a>()
+<span class="keywordtype">int</span> <a class="code" href="fann_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>()
 {
   <span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code" href="namespacexor.html#a62d8983058580a0a33ba5a5ac62fa4bf">N</a> = 10; <span class="comment">// data set size</span>
   <span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code" href="namespacexor.html#a2494cad7998a3b25f12934868b3eea85">D</a> = 2;  <span class="comment">// input space dimension</span>
@@ -147,7 +147,7 @@ Subclassing OpenANN::DataSet</h2>
   }
 };
 
-<span class="keywordtype">int</span> <a class="code" href="dpb_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627">main</a>()
+<span class="keywordtype">int</span> <a class="code" href="fann_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>()
 {
   MyDataSet dataSet = ...; <span class="comment">// create a data set</span>
   <span class="comment">// Now we can train the neural network:</span>
@@ -176,7 +176,7 @@ Subclassing OpenANN::DataSet</h2>
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jun 21 2013 08:32:07 for OpenANN by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Jun 22 2013 18:31:51 for OpenANN by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.6.1
 </small></address>

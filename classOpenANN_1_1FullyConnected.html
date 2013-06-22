@@ -141,11 +141,11 @@ Public Member Functions</h2></td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>Fully connected layer. </p>
-<p>Each neuron in the previous layer is taken as input for each neuron of this layer. Forward propagation is usually done by <img class="formulaInl" alt="$ a = W \cdot x + b, y = g(a) $" src="form_28.png"/>, where <img class="formulaInl" alt="$ a $" src="form_29.png"/> is the activation vector, <img class="formulaInl" alt="$ y $" src="form_10.png"/> is the output, <img class="formulaInl" alt="$ g $" src="form_30.png"/> a typically nonlinear activation function that operates on a vector, <img class="formulaInl" alt="$ x $" src="form_9.png"/> is the input of the layer, <img class="formulaInl" alt="$ W $" src="form_26.png"/> is a weight matrix and <img class="formulaInl" alt="$ b $" src="form_21.png"/> is a bias vector.</p>
-<p>Actually, we have a faster implementation that computes the forward and backward pass for N instances in parallel. Suppose we have an input matrix <img class="formulaInl" alt="$ X $" src="form_31.png"/> with <img class="formulaInl" alt="$ N $" src="form_15.png"/> rows and <img class="formulaInl" alt="$ I $" src="form_32.png"/> columns, i.e. each row contains an input vector <img class="formulaInl" alt="$ x $" src="form_9.png"/>. The forward propagation is implemented in two steps:</p>
-<p><img class="formulaInl" alt="$ A = X W^T, Y = g(A) $" src="form_33.png"/></p>
+<p>Each neuron in the previous layer is taken as input for each neuron of this layer. Forward propagation is usually done by <img class="formulaInl" alt="$ a = W \cdot x + b, y = g(a) $" src="form_27.png"/>, where <img class="formulaInl" alt="$ a $" src="form_28.png"/> is the activation vector, <img class="formulaInl" alt="$ y $" src="form_10.png"/> is the output, <img class="formulaInl" alt="$ g $" src="form_29.png"/> a typically nonlinear activation function that operates on a vector, <img class="formulaInl" alt="$ x $" src="form_9.png"/> is the input of the layer, <img class="formulaInl" alt="$ W $" src="form_25.png"/> is a weight matrix and <img class="formulaInl" alt="$ b $" src="form_21.png"/> is a bias vector.</p>
+<p>Actually, we have a faster implementation that computes the forward and backward pass for N instances in parallel. Suppose we have an input matrix <img class="formulaInl" alt="$ X $" src="form_75.png"/> with <img class="formulaInl" alt="$ N $" src="form_15.png"/> rows and <img class="formulaInl" alt="$ I $" src="form_76.png"/> columns, i.e. each row contains an input vector <img class="formulaInl" alt="$ x $" src="form_9.png"/>. The forward propagation is implemented in two steps:</p>
+<p><img class="formulaInl" alt="$ A = X W^T, Y = g(A) $" src="form_77.png"/></p>
 <p>and the backpropagation is</p>
-<p><img class="formulaInl" alt="$ \Delta = g'(A) * \frac{\partial E}{\partial Y}, \frac{\partial E}{\partial X} = \Delta W, \frac{\partial E}{\partial W} = \Delta^T X, \frac{\partial E}{\partial b} = \sum_n \Delta_n $" src="form_34.png"/></p>
+<p><img class="formulaInl" alt="$ \Delta = g'(A) * \frac{\partial E}{\partial Y}, \frac{\partial E}{\partial X} = \Delta W, \frac{\partial E}{\partial W} = \Delta^T X, \frac{\partial E}{\partial b} = \sum_n \Delta_n $" src="form_79.png"/></p>
 <p>Neural networks with one fully connected hidden layer and a nonlinear activation function are universal function approximators, i. e. with a sufficient number of nodes any function can be approximated with arbitrary precision. However, in practice the number of nodes could be very large and overfitting is a problem. Therefore it is sometimes better to add more hidden layers. Note that this could cause another problem: the gradients vanish in the lower layers such that these cannot be trained properly. If you want to apply a complex neural network to tasks like image recognition you could instead try <a class="el" href="classOpenANN_1_1Convolutional.html" title="Applies a learnable filter on a 2D or 3D input.">Convolutional</a> layers and pooling layers (<a class="el" href="classOpenANN_1_1MaxPooling.html" title="Performs max-pooling on 2D input feature maps.">MaxPooling</a>, <a class="el" href="classOpenANN_1_1Subsampling.html" title="Performs average pooling on 2D input feature maps.">Subsampling</a>) in the lower layers. These can be trained surprisingly well in deep architectures.</p>
 <p>Supports the following regularization types:</p>
 <ul>
@@ -413,7 +413,7 @@ Public Member Functions</h2></td></tr>
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jun 21 2013 08:32:07 for OpenANN by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Jun 22 2013 18:31:51 for OpenANN by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.6.1
 </small></address>

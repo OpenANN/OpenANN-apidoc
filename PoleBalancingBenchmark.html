@@ -78,7 +78,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p>This benchmark is based on the example <a class="el" href="PB.html">Pole Balancing</a>.</p>
-<p>We compare the number of episodes that is needed to learn a successful policy. We use a Single Layer Perceptron (SLP) to represent the policy <img class="formulaInl" alt="$ \pi : S \rightarrow A $" src="form_75.png"/>. In case of a partially observable environment, we estimate the velocities either with <img class="formulaInl" alt="$ \alpha - \beta $" src="form_76.png"/> filters or by double exponential smoothing. We do 1000 runs per configuration. The output of the program could be </p>
+<p>We compare the number of episodes that is needed to learn a successful policy. We use a Single Layer Perceptron (SLP) to represent the policy <img class="formulaInl" alt="$ \pi : S \rightarrow A $" src="form_63.png"/>. In case of a partially observable environment, we estimate the velocities either with <img class="formulaInl" alt="$ \alpha - \beta $" src="form_64.png"/> filters or by double exponential smoothing. We do 1000 runs per configuration. The output of the program could be </p>
 <div class="fragment"><pre class="fragment">
 SPB, MDP, uncompressed
 ....................................................................................................
@@ -175,7 +175,7 @@ episodes:       203.143+-241.2319
 range:          [7,1331]
 median:         133
 time:           322.9 ms
-</pre></div><p> Here SPB means Single Pole Balancing, DPB Double Pole Balancing, MDP (Fully Observable) Markov Decision Process, POMDP Partially Observable Markov Decision Process, ABF <img class="formulaInl" alt="$ \alpha - \beta $" src="form_76.png"/> Filters, DES Double Exponential Smoothing (with <img class="formulaInl" alt="$ \alpha = 0.9, \beta = 0.9 $" src="form_77.png"/>). The number of compressed SLPs' parameters are given in brackets. </p>
+</pre></div><p> Here SPB means Single Pole Balancing, DPB Double Pole Balancing, MDP (Fully Observable) Markov Decision Process, POMDP Partially Observable Markov Decision Process, ABF <img class="formulaInl" alt="$ \alpha - \beta $" src="form_64.png"/> Filters, DES Double Exponential Smoothing (with <img class="formulaInl" alt="$ \alpha = 0.9, \beta = 0.9 $" src="form_65.png"/>). The number of compressed SLPs' parameters are given in brackets. </p>
 </div></div><!-- contents -->
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
@@ -194,7 +194,7 @@ time:           322.9 ms
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jun 21 2013 08:32:07 for OpenANN by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Jun 22 2013 18:31:51 for OpenANN by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.6.1
 </small></address>

@@ -111,10 +111,10 @@ Optimization Algorithm</h2>
 <p>We can choose between stochastic gradient descent (<a class="el" href="classOpenANN_1_1MBSGD.html" title="Mini-batch stochastic gradient descent.">MBSGD</a>), conjugate gradient (<a class="el" href="classOpenANN_1_1CG.html" title="Conjugate Gradient.">CG</a>) and Levenberg-Marquardt (<a class="el" href="classOpenANN_1_1LMA.html" title="Levenberg-Marquardt Algorithm.">LMA</a>). <a class="el" href="classOpenANN_1_1LMA.html" title="Levenberg-Marquardt Algorithm.">LMA</a> is usally the best algorithm because it uses second-order information of the error function, i.e. it approximates the second derivative. But it has some drawbacks:</p>
 <ul>
 <li>It works only for SSE.</li>
-<li>It has time complexity <img class="formulaInl" alt="$ O(L^3) $" src="form_43.png"/>, where L is the number of weights.</li>
-<li>It has space complexity <img class="formulaInl" alt="$ O(LN) $" src="form_64.png"/>, where N is the number of examples.</li>
+<li>It has time complexity <img class="formulaInl" alt="$ O(L^3) $" src="form_38.png"/>, where L is the number of weights.</li>
+<li>It has space complexity <img class="formulaInl" alt="$ O(LN) $" src="form_57.png"/>, where N is the number of examples.</li>
 </ul>
-<p>Thus, it is neither applicable for large nets, nor for large datasets. In this case, we often use <a class="el" href="classOpenANN_1_1MBSGD.html" title="Mini-batch stochastic gradient descent.">MBSGD</a> because it has only <img class="formulaInl" alt="$ O(L) $" src="form_65.png"/> time and space complexity. It usually works very well for large redundant datasets for classification. It might also be useful to take a look at conjugate gradient for datasets that are not redundant, e.g. regression problems.</p>
+<p>Thus, it is neither applicable for large nets, nor for large datasets. In this case, we often use <a class="el" href="classOpenANN_1_1MBSGD.html" title="Mini-batch stochastic gradient descent.">MBSGD</a> because it has only <img class="formulaInl" alt="$ O(L) $" src="form_58.png"/> time and space complexity. It usually works very well for large redundant datasets for classification. It might also be useful to take a look at conjugate gradient for datasets that are not redundant, e.g. regression problems.</p>
 <h2><a class="anchor" id="References"></a>
 References</h2>
 <p>More tips can be found in the following documents. They are freely available.</p>
@@ -138,7 +138,7 @@ References</h2>
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jun 21 2013 08:32:07 for OpenANN by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Jun 22 2013 18:31:51 for OpenANN by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.6.1
 </small></address>
