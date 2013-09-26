@@ -10,6 +10,8 @@ var searchData=
   ['classificationhits',['classificationHits',['../namespaceOpenANN.html#a0d6718ecac6999c6338f71a3423033ed',1,'OpenANN']]],
   ['clean_5fname',['clean_name',['../protocol_8cpp.html#a49b8fa57fee8c21eef806afc649d6958',1,'protocol.cpp']]],
   ['clear',['clear',['../classBCIDataSet_1_1BCIDataCache.html#aa476f10648b2c8a80cf61108d2e062c0',1,'BCIDataSet::BCIDataCache::clear()'],['../classBCIDataSet.html#ae1aa2757e325dfbc57b2bbc7ff4a9294',1,'BCIDataSet::clear()']]],
+  ['compilation_5fflags',['compilation_flags',['../classutil_1_1OpenANN.html#a53316a2da09852a6d2ac524fad1f1633',1,'util::OpenANN']]],
+  ['compilation_5ftime',['compilation_time',['../classutil_1_1OpenANN.html#a93f9b93b3a572280e6ef05c7e17c272f',1,'util::OpenANN']]],
   ['compress',['compress',['../classOpenANN_1_1Compressor.html#a29b927e26a902963cd69c840ac76c72b',1,'OpenANN::Compressor::compress()'],['../classBCIDataSet.html#a64995626e478175aab55b42fd37bf577',1,'BCIDataSet::compress()']]],
   ['compressed',['Compressed',['../classOpenANN_1_1Compressed.html#ae8d10d9ebe8ef6b70f43e29558ba9af2',1,'OpenANN::Compressed']]],
   ['compressed_5flayer',['compressed_layer',['../classnet_1_1Net.html#ad6195c495aebea69ff9cc6488f171f3f',1,'net::Net']]],
@@ -30,6 +32,8 @@ var searchData=
   ['createdistortionmap',['createDistortionMap',['../classDistorter.html#a69f66e816480622234674e0087d162b6',1,'Distorter']]],
   ['createtwospiralsdataset',['createTwoSpiralsDataSet',['../CreateTwoSpiralsDataSet_8h.html#aa5fae563fca26881280160ea025dceda',1,'CreateTwoSpiralsDataSet.h']]],
   ['cross_5fvalidation',['cross_validation',['../namespaceevaluation.html#a5f7e446f29eb3966ba64affed0cde2d9',1,'evaluation']]],
-  ['crossvalidation',['crossValidation',['../namespaceOpenANN.html#ab86e1509d3e76288ec9f0920c0dbc659',1,'OpenANN']]],
-  ['currentparameters',['currentParameters',['../classOpenANN_1_1IntrinsicPlasticity.html#a03f911563b462e0bb9e6d0e60cf883a8',1,'OpenANN::IntrinsicPlasticity::currentParameters()'],['../classOpenANN_1_1Net.html#a28e08b3c385ad2af3951b76eb5996376',1,'OpenANN::Net::currentParameters()'],['../classOpenANN_1_1Optimizable.html#aa9320a772122a2ac5e87e3906ccc1116',1,'OpenANN::Optimizable::currentParameters()'],['../classOpenANN_1_1RBM.html#a09261d56f10d68fa695a6b779ef8340b',1,'OpenANN::RBM::currentParameters()'],['../classNeuroEvolutionAgent.html#ad7b4a66329dd26bd81f83ee932fb542e',1,'NeuroEvolutionAgent::currentParameters()']]]
+  ['crossentropy',['crossEntropy',['../namespaceOpenANN.html#acf375b6c2bdb1e9a8d5d1a64bb6fee3b',1,'OpenANN']]],
+  ['crossvalidation',['crossValidation',['../namespaceOpenANN.html#aaf6c544aad9db3a4ebd60bc1a3ed21d2',1,'OpenANN']]],
+  ['current_5fparameters',['current_parameters',['../classnet_1_1Net.html#a2cf2d73a61d8e49c8546fee84cc2911d',1,'net::Net']]],
+  ['currentparameters',['currentParameters',['../classOpenANN_1_1IntrinsicPlasticity.html#a03f911563b462e0bb9e6d0e60cf883a8',1,'OpenANN::IntrinsicPlasticity::currentParameters()'],['../classOpenANN_1_1Net.html#a28e08b3c385ad2af3951b76eb5996376',1,'OpenANN::Net::currentParameters()'],['../classOpenANN_1_1Optimizable.html#aa9320a772122a2ac5e87e3906ccc1116',1,'OpenANN::Optimizable::currentParameters()'],['../classOpenANN_1_1RBM.html#a09261d56f10d68fa695a6b779ef8340b',1,'OpenANN::RBM::currentParameters()'],['../classOpenANN_1_1SparseAutoEncoder.html#ab85d16d2db4d8c9969e226a6f10d6286',1,'OpenANN::SparseAutoEncoder::currentParameters()'],['../classNeuroEvolutionAgent.html#ad7b4a66329dd26bd81f83ee932fb542e',1,'NeuroEvolutionAgent::currentParameters()']]]
 ];

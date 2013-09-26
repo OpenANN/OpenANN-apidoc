@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['util_2epyx',['util.pyx',['../util_8pyx.html',1,'']]]
+  ['util_2epxi',['util.pxi',['../util_8pxi.html',1,'']]]
 ];

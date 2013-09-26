@@ -1,0 +1,6 @@
+<map id="OpenANN::Transformer" name="OpenANN::Transformer">
+<area shape="rect" id="node3" href="$classOpenANN_1_1KMeans.html" title="K&#45;means clustering." alt="" coords="5,192,144,347"/>
+<area shape="rect" id="node5" href="$classOpenANN_1_1Normalization.html" title="Normalize data so that for each feature the mean is 0 and the standard deviation is 1..." alt="" coords="168,192,339,347"/>
+<area shape="rect" id="node7" href="$classOpenANN_1_1PCA.html" title="Principal component analysis." alt="" coords="363,201,541,338"/>
+<area shape="rect" id="node9" href="$classOpenANN_1_1ZCAWhitening.html" title="Zero phase component analysis whitening transformation." alt="" coords="565,218,739,321"/>
+</map>

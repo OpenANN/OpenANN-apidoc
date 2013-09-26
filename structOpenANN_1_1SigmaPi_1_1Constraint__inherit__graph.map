@@ -1,4 +1,4 @@
-<map id="G" name="G">
+<map id="OpenANN::SigmaPi::Constraint" name="OpenANN::SigmaPi::Constraint">
 <area shape="rect" id="node3" href="$structOpenANN_1_1DistanceConstraint.html" title="Common constraint for encoding translation invariances into a SigmaPi layer." alt="" coords="5,227,208,347"/>
 <area shape="rect" id="node5" href="$structOpenANN_1_1SlopeConstraint.html" title="Common constraint for encoding translation and scale invariances into a SigmaPi layer." alt="" coords="232,227,413,347"/>
 <area shape="rect" id="node7" href="$structOpenANN_1_1TriangleConstraint.html" title="Common constraint for encoding translation, scale and rotation invariance into a SigmaPi layer..." alt="" coords="437,227,632,347"/>

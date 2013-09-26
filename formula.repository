@@ -5,76 +5,80 @@
 \form#4:$ g(a) = max(0, a) $
 \form#5:$ -\infty $
 \form#6:$ g(a) = a $
-\form#7:$ \Phi x = y $
+\form#7:$ g(a_i) = \frac{\exp(a_i)}{\sum_j exp(a_j)} $
 \form#8:$ \Phi $
-\form#9:$ x $
-\form#10:$ y $
-\form#11:$ E = \sum_n \sum_f (y^{(n)}_f - t^{(n)}_f)^2, $
-\form#12:$ y^{(n)}_f $
-\form#13:$ t^{(n)}_f $
-\form#14:$ E = \frac{1}{N} \sum_n \sum_f (y^{(n)}_f - t^{(n)}_f)^2, $
-\form#15:$ N $
-\form#16:$ E = \sqrt(\frac{1}{N} \sum_n \sum_f (y^{(n)}_f - t^{(n)}_f)^2), $
-\form#17:$ E = - \sum_n \sum_f t^{(n)}_f \log y^{(n)}_f, $
-\form#18:$ P(f|\bf x^{(n)}) $
-\form#19:$ y = 1 / (1 + \exp (-s a - b)) $
-\form#20:$ s $
-\form#21:$ b $
-\form#22:$ \mu $
-\form#23:$ W = \alpha \Phi $
-\form#24:$ \alpha $
-\form#25:$ W $
-\form#26:$ \Phi x $
-\form#27:$ a = W \cdot x + b, y = g(a) $
-\form#28:$ a $
-\form#29:$ g $
-\form#30:$ y^i_{rc} = x^i_{rc} / \left( k + \alpha \sum_{j=max(0, i-n/2)}^{min(N-1, i+n/2)} x^j_{rc} \right)^{\beta}, $
-\form#31:$ k, n, \alpha, \beta $
-\form#32:$ k=2, n=5, \alpha=10^{-4}, \beta=0.75 $
-\form#33:$ y^i_{rc} = x^i_{rc} / \left( k + \alpha \sum_{j=max(0, i-n/2)}^{min(N-1, i+n/2)} x^j_{rc} \right)^{\beta} $
-\form#34:$ |g| < $
-\form#35:$ |E^{t+1}-E^{t}| \leq $
-\form#36:$ \cdot max\{|E^{t+1}|,|E^{t}|,1\} $
-\form#37:$ t > $
-\form#38:$ O(L^3) $
-\form#39:$ O(L N) $
-\form#40:$ w^t = w^{t-1} - \frac{\alpha}{|B_t|} \sum_{n \in B_t} \nabla E_n(w) $
-\form#41:$ \Delta w^t = - \frac{\alpha}{|B_t|} \sum_{n \in B_t} \nabla E_n(w), \quad w^t = w^{t-1} + \Delta w^t, $
-\form#42:$ B_t $
-\form#43:$ \Delta w^t = \eta \Delta w^{t-1} - \frac{\alpha}{|B_t|} \sum_{n \in B_t} \nabla E_n(w), \quad w^t = w^{t-1} + \Delta w^t, $
-\form#44:$ \eta $
-\form#45:$ w_{ji} $
-\form#46:$ g_{ji} $
-\form#47:$ \Delta w_{ji}^t = \eta \Delta w_{ji}^{t-1} - \frac{\alpha g_{ji}^{t-1}}{|B_t|} \sum_{n \in B_t} \nabla E_n(w_{ji}), \quad w_{ji}^t = w_{ji}^{t-1} + \Delta w_{ji}^t, $
-\form#48:$ g_{ji}^0 = 1 $
-\form#49:$ \Delta w_{ji}^t \Delta w_{ji}^{t-1} \geq 0 $
-\form#50:$ \alpha^t = max(\alpha_{decay} \alpha^{t-1}, \alpha_{min}). $
-\form#51:$ \eta^t = min(\eta^{t-1} + \eta_{inc}, \eta_{max}). $
-\form#52:$ \alpha \gamma w^{t-1} $
-\form#53:$ \mathcal{N}(\mu, \sigma) $
-\form#54:$ x_n $
-\form#55:$ y_n $
-\form#56:$ f $
-\form#57:$ O(LN) $
-\form#58:$ O(L) $
-\form#59:$ x_1 $
-\form#60:$ x_2 $
-\form#61:$ y_1 $
-\form#62:$ x_1 \neq x_2 $
-\form#63:$ \pi : S \rightarrow A $
-\form#64:$ \alpha - \beta $
-\form#65:$ \alpha = 0.9, \beta = 0.9 $
-\form#66:$ S $
-\form#67:$ A $
-\form#68:$ \alpha-\beta $
-\form#69:$ \sigma \in [ 5, 6] $
-\form#70:$ \alpha \in [36/255, 36/255] $
-\form#71:$ \beta \in [7.5, 15] $
-\form#72:$ \gamma_x \in [15, 20] $
-\form#73:$ \gamma_y [15, 20] $
-\form#74:$ \gamma_y \in [15, 20] $
-\form#75:$ X $
-\form#76:$ I $
-\form#77:$ A = X W^T, Y = g(A) $
-\form#78:$ \Delta = g'(A) * \frac{\partial E}{\partial Y}, \frac{\partial E}{\partial X} = \Delta W, \frac{\partial E}{\partial W} = \Delta^T X, \frac{\partial E}{\partial b} = \sum_n \frac{\partial E}{\partial Y_n} $
-\form#79:$ \Delta = g'(A) * \frac{\partial E}{\partial Y}, \frac{\partial E}{\partial X} = \Delta W, \frac{\partial E}{\partial W} = \Delta^T X, \frac{\partial E}{\partial b} = \sum_n \Delta_n $
+\form#9:$ \Phi x = y $
+\form#10:$ x $
+\form#11:$ y $
+\form#12:$ E = \sum_n \sum_f (y^{(n)}_f - t^{(n)}_f)^2, $
+\form#13:$ y^{(n)}_f $
+\form#14:$ t^{(n)}_f $
+\form#15:$ E = \frac{1}{N} \sum_n \sum_f (y^{(n)}_f - t^{(n)}_f)^2, $
+\form#16:$ N $
+\form#17:$ E = \sqrt(\frac{1}{N} \sum_n \sum_f (y^{(n)}_f - t^{(n)}_f)^2), $
+\form#18:$ E = - \sum_n \sum_f t^{(n)}_f \log y^{(n)}_f, $
+\form#19:$ P(f|\bf x^{(n)}) $
+\form#20:$ y = 1 / (1 + \exp (-s a - b)) $
+\form#21:$ s $
+\form#22:$ b $
+\form#23:$ \mu $
+\form#24:$ \alpha-\beta $
+\form#25:$ W = \alpha \Phi $
+\form#26:$ \alpha $
+\form#27:$ W $
+\form#28:$ \Phi x $
+\form#29:$ a = W \cdot x + b, y = g(a) $
+\form#30:$ a $
+\form#31:$ g $
+\form#32:$ X $
+\form#33:$ I $
+\form#34:$ A = X W^T, Y = g(A) $
+\form#35:$ \Delta = g'(A) * \frac{\partial E}{\partial Y}, \frac{\partial E}{\partial X} = \Delta W, \frac{\partial E}{\partial W} = \Delta^T X, \frac{\partial E}{\partial b} = \sum_n \Delta_n $
+\form#36:$ y^i_{rc} = x^i_{rc} / \left( k + \alpha \sum_{j=max(0, i-n/2)}^{min(N-1, i+n/2)} x^j_{rc} \right)^{\beta}, $
+\form#37:$ k, n, \alpha, \beta $
+\form#38:$ k=2, n=5, \alpha=10^{-4}, \beta=0.75 $
+\form#39:$ y^i_{rc} = x^i_{rc} / \left( k + \alpha \sum_{j=max(0, i-n/2)}^{min(N-1, i+n/2)} x^j_{rc} \right)^{\beta} $
+\form#40:$ |g| < $
+\form#41:$ |E^{t+1}-E^{t}| \leq $
+\form#42:$ \cdot max\{|E^{t+1}|,|E^{t}|,1\} $
+\form#43:$ t > $
+\form#44:$ O(L^3) $
+\form#45:$ O(L N) $
+\form#46:$ w^t = w^{t-1} - \frac{\alpha}{|B_t|} \sum_{n \in B_t} \nabla E_n(w) $
+\form#47:$ \Delta w^t = - \frac{\alpha}{|B_t|} \sum_{n \in B_t} \nabla E_n(w), \quad w^t = w^{t-1} + \Delta w^t, $
+\form#48:$ B_t $
+\form#49:$ \Delta w^t = \eta \Delta w^{t-1} - \frac{\alpha}{|B_t|} \sum_{n \in B_t} \nabla E_n(w), \quad w^t = w^{t-1} + \Delta w^t, $
+\form#50:$ \eta $
+\form#51:$ O(\frac{1}{T^2}) $
+\form#52:$ O(\frac{1}{T}) $
+\form#53:$ \Delta w^t = \eta \Delta w^{t-1} - \frac{\alpha}{|B_t|} \sum_{n \in B_t} \nabla E_n(w + \eta \Delta w^{t-1}), \quad w^t = w^{t-1} + \Delta w^t, $
+\form#54:$ w_{ji} $
+\form#55:$ g_{ji} $
+\form#56:$ \Delta w_{ji}^t = \eta \Delta w_{ji}^{t-1} - \frac{\alpha g_{ji}^{t-1}}{|B_t|} \sum_{n \in B_t} \nabla E_n(w_{ji}), \quad w_{ji}^t = w_{ji}^{t-1} + \Delta w_{ji}^t, $
+\form#57:$ g_{ji}^0 = 1 $
+\form#58:$ \Delta w_{ji}^t \Delta w_{ji}^{t-1} \geq 0 $
+\form#59:$ \alpha^t = max(\alpha_{decay} \alpha^{t-1}, \alpha_{min}). $
+\form#60:$ \eta^t = min(\eta^{t-1} + \eta_{inc}, \eta_{max}). $
+\form#61:$ A $
+\form#62:$ S $
+\form#63:$ \mathcal{N}(\mu, \sigma) $
+\form#64:$ Y = X W $
+\form#65:$ C = \frac{1}{n-1} Y^T Y $
+\form#66:$ W = W^T $
+\form#67:$ x_n $
+\form#68:$ y_n $
+\form#69:$ f $
+\form#70:$ x_1 $
+\form#71:$ x_2 $
+\form#72:$ y_1 $
+\form#73:$ x_1 \neq x_2 $
+\form#74:$ O(LN) $
+\form#75:$ O(L) $
+\form#76:$ \sigma \in [ 5, 6] $
+\form#77:$ \alpha \in [36/255, 36/255] $
+\form#78:$ \beta \in [7.5, 15] $
+\form#79:$ \gamma_x \in [15, 20] $
+\form#80:$ \gamma_y \in [15, 20] $
+\form#81:$ \pi : S \rightarrow A $
+\form#82:$ \alpha - \beta $
+\form#83:$ \alpha = 0.9, \beta = 0.9 $

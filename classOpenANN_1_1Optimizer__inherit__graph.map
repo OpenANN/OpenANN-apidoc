@@ -1,6 +1,7 @@
-<map id="G" name="G">
+<map id="OpenANN::Optimizer" name="OpenANN::Optimizer">
 <area shape="rect" id="node3" href="$classOpenANN_1_1CG.html" title="Conjugate Gradient." alt="" coords="5,286,133,493"/>
 <area shape="rect" id="node5" href="$classOpenANN_1_1IPOPCMAES.html" title="Evolution Strategies with Covariance Matrix Adaption and a restart strategy that increases the popula..." alt="" coords="157,243,328,536"/>
-<area shape="rect" id="node7" href="$classOpenANN_1_1LMA.html" title="Levenberg&#45;Marquardt Algorithm." alt="" coords="352,286,480,493"/>
-<area shape="rect" id="node9" href="$classOpenANN_1_1MBSGD.html" title="Mini&#45;batch stochastic gradient descent." alt="" coords="504,286,643,493"/>
+<area shape="rect" id="node7" href="$classOpenANN_1_1LBFGS.html" title="Limited storage Broyden&#45;Fletcher&#45;Goldfarb&#45;Shanno." alt="" coords="352,269,485,510"/>
+<area shape="rect" id="node9" href="$classOpenANN_1_1LMA.html" title="Levenberg&#45;Marquardt Algorithm." alt="" coords="509,286,637,493"/>
+<area shape="rect" id="node11" href="$classOpenANN_1_1MBSGD.html" title="Mini&#45;batch stochastic gradient descent." alt="" coords="661,286,800,493"/>
 </map>

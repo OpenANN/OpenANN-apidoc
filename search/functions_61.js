@@ -11,6 +11,7 @@ var searchData=
   ['activationfunctionderivative',['activationFunctionDerivative',['../namespaceOpenANN.html#a878e245d8884e43ef328313c8d0c0f8b',1,'OpenANN']]],
   ['add_5flayer',['add_layer',['../classnet_1_1Net.html#a09b709652b5dfce36ea2e9a5d008cb65',1,'net::Net']]],
   ['add_5foutput_5flayer',['add_output_layer',['../classnet_1_1Net.html#a5bf46d09d9fed50344a1c1f5e4d6a01d',1,'net::Net']]],
+  ['add_5fsample',['add_sample',['../classdataset_1_1DataStream.html#a321850a0adf336670d667f93b9f8b65b',1,'dataset::DataStream']]],
   ['addlayer',['addLayer',['../classOpenANN_1_1Net.html#a5fbe1fa6dbbd4e92dd2b8e64d4bd42ca',1,'OpenANN::Net']]],
   ['addoutputlayer',['addOutputLayer',['../classOpenANN_1_1Net.html#ab710c3cb8ec49e3624c4102d88396f41',1,'OpenANN::Net']]],
   ['addsample',['addSample',['../classOpenANN_1_1DataStream.html#aa05a978ac257c8bea0d3829cf2c629c7',1,'OpenANN::DataStream']]],

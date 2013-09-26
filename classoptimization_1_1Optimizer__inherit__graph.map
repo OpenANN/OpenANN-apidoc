@@ -1,5 +1,6 @@
-<map id="G" name="G">
+<map id="optimization.Optimizer" name="optimization.Optimizer">
 <area shape="rect" id="node3" href="$classoptimization_1_1CG.html" title="{optimization.CG\n||}" alt="" coords="5,139,120,224"/>
-<area shape="rect" id="node5" href="$classoptimization_1_1LMA.html" title="{optimization.LMA\n||}" alt="" coords="144,139,267,224"/>
-<area shape="rect" id="node7" href="$classoptimization_1_1MBSGD.html" title="{optimization.MBSGD\n||}" alt="" coords="291,139,435,224"/>
+<area shape="rect" id="node5" href="$classoptimization_1_1LBFGS.html" title="{optimization.LBFGS\n||}" alt="" coords="144,139,283,224"/>
+<area shape="rect" id="node7" href="$classoptimization_1_1LMA.html" title="{optimization.LMA\n||}" alt="" coords="307,139,429,224"/>
+<area shape="rect" id="node9" href="$classoptimization_1_1MBSGD.html" title="{optimization.MBSGD\n||}" alt="" coords="453,139,597,224"/>
 </map>

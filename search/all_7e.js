@@ -14,6 +14,7 @@ var searchData=
   ['_7eevaluator',['~Evaluator',['../classOpenANN_1_1Evaluator.html#a49c6a5544eca5b97e9f8338c05beda6d',1,'OpenANN::Evaluator']]],
   ['_7eipopcmaes',['~IPOPCMAES',['../classOpenANN_1_1IPOPCMAES.html#a95d24f0cca9925c5225911feeacb4a5a',1,'OpenANN::IPOPCMAES']]],
   ['_7elayer',['~Layer',['../classOpenANN_1_1Layer.html#a459798712b12ef380e3e21f4a74e9511',1,'OpenANN::Layer']]],
+  ['_7elbfgs',['~LBFGS',['../classOpenANN_1_1LBFGS.html#a13562bd60c0084752c23d295d6327d69',1,'OpenANN::LBFGS']]],
   ['_7elearner',['~Learner',['../classOpenANN_1_1Learner.html#a8b5c030350e41a2f404b8590180f8962',1,'OpenANN::Learner']]],
   ['_7elma',['~LMA',['../classOpenANN_1_1LMA.html#a66a972088bed8775bfe35c5b83b1a637',1,'OpenANN::LMA']]],
   ['_7elog',['~Log',['../classOpenANN_1_1Log.html#a63eb57ae608e06e6ebf7d2b7dbe18c51',1,'OpenANN::Log']]],
@@ -28,6 +29,7 @@ var searchData=
   ['_7eslopeconstraint',['~SlopeConstraint',['../structOpenANN_1_1SlopeConstraint.html#a82c7e389bfc34f28467a1c11a263344f',1,'OpenANN::SlopeConstraint']]],
   ['_7estatespace',['~StateSpace',['../classOpenANN_1_1StateSpace.html#a6405f840deac49a2eb45e0bc6798da3c',1,'OpenANN::StateSpace']]],
   ['_7estoppinginterrupt',['~StoppingInterrupt',['../classOpenANN_1_1StoppingInterrupt.html#a0cdfbf84402f6106083bb136c26f1725',1,'OpenANN::StoppingInterrupt']]],
+  ['_7etransformer',['~Transformer',['../classOpenANN_1_1Transformer.html#acd0a293ce047fd30b469acbd83b18bad',1,'OpenANN::Transformer']]],
   ['_7etriangleconstraint',['~TriangleConstraint',['../structOpenANN_1_1TriangleConstraint.html#a4c5d18ac58265b0fd41983824097e905',1,'OpenANN::TriangleConstraint']]],
   ['_7etwospiralsdataset',['~TwoSpiralsDataSet',['../classTwoSpiralsDataSet.html#ae02fe00027a43e52b1c2fb9a837a73fb',1,'TwoSpiralsDataSet']]],
   ['_7etwospiralsvisualization',['~TwoSpiralsVisualization',['../classTwoSpiralsVisualization.html#a3f78de58c5a87c5b40d5103ebf161d68',1,'TwoSpiralsVisualization']]]

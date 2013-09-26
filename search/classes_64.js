@@ -1,9 +1,10 @@
 var searchData=
 [
-  ['dataset',['Dataset',['../classdataset_1_1Dataset.html',1,'dataset']]],
   ['dataset',['DataSet',['../classOpenANN_1_1DataSet.html',1,'OpenANN']]],
+  ['dataset',['Dataset',['../classdataset_1_1Dataset.html',1,'dataset']]],
   ['datasetview',['DataSetView',['../classOpenANN_1_1DataSetView.html',1,'OpenANN']]],
   ['datastream',['DataStream',['../classOpenANN_1_1DataStream.html',1,'OpenANN']]],
+  ['datastream',['DataStream',['../classdataset_1_1DataStream.html',1,'dataset']]],
   ['decimator',['Decimator',['../classDecimator.html',1,'']]],
   ['directstoragedataset',['DirectStorageDataSet',['../classOpenANN_1_1DirectStorageDataSet.html',1,'OpenANN']]],
   ['distanceconstraint',['DistanceConstraint',['../structOpenANN_1_1DistanceConstraint.html',1,'OpenANN']]],

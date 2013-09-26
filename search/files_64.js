@@ -1,7 +1,7 @@
 var searchData=
 [
   ['dataset_2eh',['DataSet.h',['../DataSet_8h.html',1,'']]],
-  ['dataset_2epyx',['dataset.pyx',['../dataset_8pyx.html',1,'']]],
+  ['dataset_2epxi',['dataset.pxi',['../dataset_8pxi.html',1,'']]],
   ['datasetview_2eh',['DataSetView.h',['../DataSetView_8h.html',1,'']]],
   ['datastream_2eh',['DataStream.h',['../DataStream_8h.html',1,'']]],
   ['decimator_2eh',['Decimator.h',['../Decimator_8h.html',1,'']]],

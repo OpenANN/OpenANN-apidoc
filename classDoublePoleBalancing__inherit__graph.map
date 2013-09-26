@@ -1,5 +1,5 @@
-<map id="G" name="G">
-<area shape="rect" id="node2" href="$classOpenANN_1_1Environment.html" title="{OpenANN::Environment\n||+ ~Environment()\l+ restart()\l+ getState()\l+ getAction()\l+ stateTransition()\l+ reward()\l+ terminalState()\l+ successful()\l+ stepsInEpisode()\l+ deltaT()\l}" alt="" coords="116,243,279,485"/>
+<map id="DoublePoleBalancing" name="DoublePoleBalancing">
+<area shape="rect" id="node2" href="$classOpenANN_1_1Environment.html" title="A reinforcement learning environment." alt="" coords="116,243,279,485"/>
 <area shape="rect" id="node4" href="$classOpenANN_1_1StateSpace.html" title="Represents the state space &#160;in a reinforcement learning problem." alt="" coords="5,5,184,195"/>
 <area shape="rect" id="node6" href="$classOpenANN_1_1ActionSpace.html" title="Represents the action space &#160;in a reinforcement learning problem." alt="" coords="208,5,395,195"/>
 </map>

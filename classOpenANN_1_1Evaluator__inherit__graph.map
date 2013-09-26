@@ -1,3 +1,3 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classOpenANN_1_1MulticlassEvaluator.html" title="{OpenANN::MulticlassEvaluator\n||+ MulticlassEvaluator()\l+ ~MulticlassEvaluator()\l+ evaluate()\l}" alt="" coords="5,157,208,277"/>
+<map id="OpenANN::Evaluator" name="OpenANN::Evaluator">
+<area shape="rect" id="node3" href="$classOpenANN_1_1MulticlassEvaluator.html" title="Evaluates learners for multiclass problems." alt="" coords="5,157,208,277"/>
 </map>
