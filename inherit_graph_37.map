@@ -1,7 +1,8 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classoptimization_1_1Optimizer.html" title="optimization.Optimizer" alt="" coords="5,85,157,115"/>
-<area shape="rect" id="node3" href="$classoptimization_1_1CG.html" title="optimization.CG" alt="" coords="221,5,336,35"/>
-<area shape="rect" id="node5" href="$classoptimization_1_1LBFGS.html" title="optimization.LBFGS" alt="" coords="209,59,348,88"/>
-<area shape="rect" id="node7" href="$classoptimization_1_1LMA.html" title="optimization.LMA" alt="" coords="217,112,340,141"/>
-<area shape="rect" id="node9" href="$classoptimization_1_1MBSGD.html" title="optimization.MBSGD" alt="" coords="207,165,351,195"/>
+<area shape="rect" id="node1" href="$classOpenANN_1_1Transformer.html" title="Common base for all transformations. " alt="" coords="5,112,165,141"/>
+<area shape="rect" id="node3" href="$classOpenANN_1_1Compressor.html" title="Compresses arbitrary one&#45;dimensional data. " alt="" coords="221,5,381,35"/>
+<area shape="rect" id="node5" href="$classOpenANN_1_1KMeans.html" title="K&#45;means clustering. " alt="" coords="232,59,371,88"/>
+<area shape="rect" id="node7" href="$classOpenANN_1_1Normalization.html" title="Normalize data so that for each feature the mean is 0 and the standard deviation is 1..." alt="" coords="216,112,387,141"/>
+<area shape="rect" id="node9" href="$classOpenANN_1_1PCA.html" title="Principal component analysis. " alt="" coords="243,165,360,195"/>
+<area shape="rect" id="node11" href="$classOpenANN_1_1ZCAWhitening.html" title="Zero phase component analysis whitening transformation. " alt="" coords="215,219,388,248"/>
 </map>

@@ -1,7 +1,7 @@
 <map id="OpenANN::Learner" name="OpenANN::Learner">
-<area shape="rect" id="node5" href="$classOpenANN_1_1IntrinsicPlasticity.html" title="Learns the parameters of a logistic sigmoid activation function." alt="" coords="5,1696,195,1955"/>
-<area shape="rect" id="node7" href="$classOpenANN_1_1Net.html" title="Feedforward multilayer neural network." alt="" coords="219,1072,416,2579"/>
-<area shape="rect" id="node9" href="$classOpenANN_1_1RBM.html" title="Restricted Boltzmann Machine." alt="" coords="440,1696,600,1955"/>
-<area shape="rect" id="node11" href="$classOpenANN_1_1SparseAutoEncoder.html" title="A sparse auto&#45;encoder tries to reconstruct the inputs from a compressed representation." alt="" coords="624,1696,829,1955"/>
-<area shape="rect" id="node2" href="$classOpenANN_1_1Optimizable.html" title="Represents an optimizable object." alt="" coords="339,6,499,663"/>
+<area shape="rect" id="node5" href="$classOpenANN_1_1IntrinsicPlasticity.html" title="Learns the parameters of a logistic sigmoid activation function. " alt="" coords="5,1696,195,1955"/>
+<area shape="rect" id="node7" href="$classOpenANN_1_1Net.html" title="Feedforward multilayer neural network. " alt="" coords="219,1072,416,2579"/>
+<area shape="rect" id="node9" href="$classOpenANN_1_1RBM.html" title="Restricted Boltzmann Machine. " alt="" coords="440,1696,600,1955"/>
+<area shape="rect" id="node11" href="$classOpenANN_1_1SparseAutoEncoder.html" title="A sparse auto&#45;encoder tries to reconstruct the inputs from a compressed representation. " alt="" coords="624,1696,829,1955"/>
+<area shape="rect" id="node2" href="$classOpenANN_1_1Optimizable.html" title="Represents an optimizable object. " alt="" coords="339,6,499,663"/>
 </map>

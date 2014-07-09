@@ -1,7 +1,6 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classOpenANN_1_1ActionSpace.html" title="Represents the action space &#160;in a reinforcement learning problem." alt="" coords="7,5,169,35"/>
-<area shape="rect" id="node3" href="$classOpenANN_1_1Environment.html" title="A reinforcement learning environment." alt="" coords="219,32,381,61"/>
-<area shape="rect" id="node5" href="$classDoublePoleBalancing.html" title="In this environment the agent has to control a cart such that the two poles mounted at the top of the..." alt="" coords="429,5,576,35"/>
-<area shape="rect" id="node7" href="$classSinglePoleBalancing.html" title="In this environment the agent has to control a cart such that the pole mounted at the top of the cart..." alt="" coords="432,59,573,88"/>
-<area shape="rect" id="node8" href="$classOpenANN_1_1StateSpace.html" title="Represents the state space &#160;in a reinforcement learning problem." alt="" coords="9,59,167,88"/>
+<area shape="rect" id="node1" href="$structOpenANN_1_1SigmaPi_1_1Constraint.html" title="A helper class for specifying weight constrains in a higher&#45;order neural network Derive a new class f..." alt="" coords="7,59,212,88"/>
+<area shape="rect" id="node3" href="$structOpenANN_1_1DistanceConstraint.html" title="Common constraint for encoding translation invariances into a SigmaPi layer. " alt="" coords="261,5,464,35"/>
+<area shape="rect" id="node5" href="$structOpenANN_1_1SlopeConstraint.html" title="Common constraint for encoding translation and scale invariances into a SigmaPi layer. " alt="" coords="272,59,453,88"/>
+<area shape="rect" id="node7" href="$structOpenANN_1_1TriangleConstraint.html" title="Common constraint for encoding translation, scale and rotation invariance into a SigmaPi layer..." alt="" coords="265,112,460,141"/>
 </map>

@@ -1,6 +1,7 @@
 var searchData=
 [
   ['eigenwrapper_2eh',['EigenWrapper.h',['../EigenWrapper_8h.html',1,'']]],
+  ['ensemblelearner_2eh',['EnsembleLearner.h',['../EnsembleLearner_8h.html',1,'']]],
   ['environment_2eh',['Environment.h',['../Environment_8h.html',1,'']]],
   ['errorfunctions_2eh',['ErrorFunctions.h',['../ErrorFunctions_8h.html',1,'']]],
   ['evaluation_2eh',['Evaluation.h',['../Evaluation_8h.html',1,'']]],

@@ -1,4 +1,4 @@
 <map id="OpenANN::Agent" name="OpenANN::Agent">
 <area shape="rect" id="node3" href="$classNeuroEvolutionAgent.html" title="{NeuroEvolutionAgent\n||+ NeuroEvolutionAgent()\l+ ~NeuroEvolutionAgent()\l+ abandoneIn()\l+ chooseAction()\l+ chooseOptimalAction()\l+ currentParameters()\l+ dimension()\l+ error()\l+ gradient()\l+ initialize()\l+ providesGradient()\l+ providesInitialization()\l+ setParameters()\l+ setSigma0()\l}" alt="" coords="5,193,179,503"/>
-<area shape="rect" id="node5" href="$classOpenANN_1_1RandomAgent.html" title="Choses actions randomly." alt="" coords="203,279,376,417"/>
+<area shape="rect" id="node5" href="$classOpenANN_1_1RandomAgent.html" title="Choses actions randomly. " alt="" coords="203,279,376,417"/>
 </map>

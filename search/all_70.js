@@ -27,7 +27,7 @@ var searchData=
   ['pole_20balancing',['Pole Balancing',['../PoleBalancingBenchmark.html',1,'']]],
   ['position',['position',['../structOpenANN_1_1SigmaPi_1_1HigherOrderUnit.html#a1a1f1b1ec173a8141c0d729a990fd574',1,'OpenANN::SigmaPi::HigherOrderUnit']]],
   ['precision',['Precision',['../classStopwatch.html#a3fc47b74917c17ab4b7f1b40bb2fb035',1,'Stopwatch::Precision()'],['../structOpenANN_1_1FloatingPointFormatter.html#ad035255f796666a7b38e56591da55d95',1,'OpenANN::FloatingPointFormatter::precision()']]],
-  ['predict',['predict',['../classnet_1_1Net.html#a1c86e639d03ee234f542c7dcd4984b82',1,'net.Net.predict()'],['../classnet_1_1RBM.html#ac638b6403241b4faa70205847ededeb6',1,'net.RBM.predict()'],['../classnet_1_1SparseAutoEncoder.html#ae7f6f1d8f2283661ff7aed02ff7ef86c',1,'net.SparseAutoEncoder.predict()']]],
+  ['predict',['predict',['../classnet_1_1Net.html#a1c86e639d03ee234f542c7dcd4984b82',1,'net.Net.predict()'],['../classnet_1_1RBM.html#ac638b6403241b4faa70205847ededeb6',1,'net.RBM.predict()'],['../classnet_1_1SparseAutoEncoder.html#ae7f6f1d8f2283661ff7aed02ff7ef86c',1,'net.SparseAutoEncoder.predict()'],['../namespacemetalearning.html#aeb28039be9474bde5ff5340f5b04f7fa',1,'metalearning.predict()']]],
   ['predictclass',['predictClass',['../classTwoSpiralsVisualization.html#af3134cb419527f9307237069f1bb0dd9',1,'TwoSpiralsVisualization']]],
   ['preprocessing',['preprocessing',['../namespacepreprocessing.html',1,'']]],
   ['preprocessing_2eh',['Preprocessing.h',['../Preprocessing_8h.html',1,'']]],

@@ -1,16 +1,16 @@
 <map id="OpenANN::Layer" name="OpenANN::Layer">
-<area shape="rect" id="node3" href="$classOpenANN_1_1AlphaBetaFilter.html" title="A recurrent layer that can be used to smooth the input and estimate its derivative." alt="" coords="5,383,184,607"/>
-<area shape="rect" id="node5" href="$classOpenANN_1_1Compressed.html" title="Fully connected layer with compressed weights." alt="" coords="208,391,371,598"/>
-<area shape="rect" id="node7" href="$classOpenANN_1_1Convolutional.html" title="Applies a learnable filter on a 2D or 3D input." alt="" coords="395,391,563,598"/>
-<area shape="rect" id="node9" href="$classOpenANN_1_1Dropout.html" title="Dropout mask." alt="" coords="587,391,741,598"/>
-<area shape="rect" id="node11" href="$classOpenANN_1_1Extreme.html" title="Fully connected layer with fixed random weights." alt="" coords="765,391,920,598"/>
-<area shape="rect" id="node13" href="$classOpenANN_1_1FullyConnected.html" title="Fully connected layer." alt="" coords="944,305,1125,685"/>
-<area shape="rect" id="node15" href="$classOpenANN_1_1Input.html" title="Input layer." alt="" coords="1149,391,1304,598"/>
-<area shape="rect" id="node17" href="$classOpenANN_1_1IntrinsicPlasticity.html" title="Learns the parameters of a logistic sigmoid activation function." alt="" coords="1328,365,1517,624"/>
-<area shape="rect" id="node19" href="$classOpenANN_1_1LocalResponseNormalization.html" title="Local response normalization." alt="" coords="1541,391,1800,598"/>
-<area shape="rect" id="node21" href="$classOpenANN_1_1MaxPooling.html" title="Performs max&#45;pooling on 2D input feature maps." alt="" coords="1824,391,1981,598"/>
-<area shape="rect" id="node23" href="$classOpenANN_1_1RBM.html" title="Restricted Boltzmann Machine." alt="" coords="2005,365,2165,624"/>
-<area shape="rect" id="node25" href="$classOpenANN_1_1SigmaPi.html" title="Fully connected higher&#45;order layer." alt="" coords="2189,261,2344,728"/>
-<area shape="rect" id="node27" href="$classOpenANN_1_1SparseAutoEncoder.html" title="A sparse auto&#45;encoder tries to reconstruct the inputs from a compressed representation." alt="" coords="2368,365,2573,624"/>
-<area shape="rect" id="node29" href="$classOpenANN_1_1Subsampling.html" title="Performs average pooling on 2D input feature maps." alt="" coords="2597,391,2763,598"/>
+<area shape="rect" id="node3" href="$classOpenANN_1_1AlphaBetaFilter.html" title="A recurrent layer that can be used to smooth the input and estimate its derivative. " alt="" coords="5,383,184,607"/>
+<area shape="rect" id="node5" href="$classOpenANN_1_1Compressed.html" title="Fully connected layer with compressed weights. " alt="" coords="208,391,371,598"/>
+<area shape="rect" id="node7" href="$classOpenANN_1_1Convolutional.html" title="Applies a learnable filter on a 2D or 3D input. " alt="" coords="395,391,563,598"/>
+<area shape="rect" id="node9" href="$classOpenANN_1_1Dropout.html" title="Dropout mask. " alt="" coords="587,391,741,598"/>
+<area shape="rect" id="node11" href="$classOpenANN_1_1Extreme.html" title="Fully connected layer with fixed random weights. " alt="" coords="765,391,920,598"/>
+<area shape="rect" id="node13" href="$classOpenANN_1_1FullyConnected.html" title="Fully connected layer. " alt="" coords="944,305,1125,685"/>
+<area shape="rect" id="node15" href="$classOpenANN_1_1Input.html" title="Input layer. " alt="" coords="1149,391,1304,598"/>
+<area shape="rect" id="node17" href="$classOpenANN_1_1IntrinsicPlasticity.html" title="Learns the parameters of a logistic sigmoid activation function. " alt="" coords="1328,365,1517,624"/>
+<area shape="rect" id="node19" href="$classOpenANN_1_1LocalResponseNormalization.html" title="Local response normalization. " alt="" coords="1541,391,1800,598"/>
+<area shape="rect" id="node21" href="$classOpenANN_1_1MaxPooling.html" title="Performs max&#45;pooling on 2D input feature maps. " alt="" coords="1824,391,1981,598"/>
+<area shape="rect" id="node23" href="$classOpenANN_1_1RBM.html" title="Restricted Boltzmann Machine. " alt="" coords="2005,365,2165,624"/>
+<area shape="rect" id="node25" href="$classOpenANN_1_1SigmaPi.html" title="Fully connected higher&#45;order layer. " alt="" coords="2189,261,2344,728"/>
+<area shape="rect" id="node27" href="$classOpenANN_1_1SparseAutoEncoder.html" title="A sparse auto&#45;encoder tries to reconstruct the inputs from a compressed representation. " alt="" coords="2368,365,2573,624"/>
+<area shape="rect" id="node29" href="$classOpenANN_1_1Subsampling.html" title="Performs average pooling on 2D input feature maps. " alt="" coords="2597,391,2763,598"/>
 </map>

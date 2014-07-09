@@ -1,3 +1,8 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classOpenANN_1_1RandomNumberGenerator.html" title="A utility class that simplifies the generation of random numbers." alt="" coords="5,5,248,35"/>
+<area shape="rect" id="node1" href="$classOpenANN_1_1Optimizer.html" title="The common interface of all optimization algorithms. " alt="" coords="5,112,152,141"/>
+<area shape="rect" id="node3" href="$classOpenANN_1_1CG.html" title="Conjugate Gradient. " alt="" coords="231,5,340,35"/>
+<area shape="rect" id="node5" href="$classOpenANN_1_1IPOPCMAES.html" title="Evolution Strategies with Covariance Matrix Adaption and a restart strategy that increases the popula..." alt="" coords="200,59,371,88"/>
+<area shape="rect" id="node7" href="$classOpenANN_1_1LBFGS.html" title="Limited storage Broyden&#45;Fletcher&#45;Goldfarb&#45;Shanno. " alt="" coords="219,112,352,141"/>
+<area shape="rect" id="node9" href="$classOpenANN_1_1LMA.html" title="Levenberg&#45;Marquardt Algorithm. " alt="" coords="227,165,344,195"/>
+<area shape="rect" id="node11" href="$classOpenANN_1_1MBSGD.html" title="Mini&#45;batch stochastic gradient descent. " alt="" coords="216,219,355,248"/>
 </map>

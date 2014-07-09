@@ -1,7 +1,7 @@
 var searchData=
 [
   ['dataset',['DataSet',['../classOpenANN_1_1DataSet.html',1,'OpenANN']]],
-  ['dataset',['Dataset',['../classdataset_1_1Dataset.html',1,'dataset']]],
+  ['dataset',['DataSet',['../classdataset_1_1DataSet.html',1,'dataset']]],
   ['datasetview',['DataSetView',['../classOpenANN_1_1DataSetView.html',1,'OpenANN']]],
   ['datastream',['DataStream',['../classOpenANN_1_1DataStream.html',1,'OpenANN']]],
   ['datastream',['DataStream',['../classdataset_1_1DataStream.html',1,'dataset']]],

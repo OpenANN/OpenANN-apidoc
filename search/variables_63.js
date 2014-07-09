@@ -9,5 +9,5 @@ var searchData=
   ['compilation_5ftime',['COMPILATION_TIME',['../classOpenANN_1_1OpenANNLibraryInfo.html#afd6b74506e6f4f20f2a782c2804c0540',1,'OpenANN::OpenANNLibraryInfo']]],
   ['compiler_5fflags',['COMPILER_FLAGS',['../classOpenANN_1_1OpenANNLibraryInfo.html#a376dd9e6f7e908b0089e3017b7264150',1,'OpenANN::OpenANNLibraryInfo']]],
   ['compress',['compress',['../classOpenANN_1_1CompressionMatrixFactory.html#a97cc4b93946054ea3f01e863e4cefd55',1,'OpenANN::CompressionMatrixFactory']]],
-  ['compressor',['compressor',['../classBCIDataSet.html#aaa6859171881b1867374228c3e4d205e',1,'BCIDataSet']]]
+  ['compressor',['compressor',['../classBCIDataSet.html#a91e1e940767191b274e4bbc3fa5ad6ba',1,'BCIDataSet']]]
 ];
